@@ -7,7 +7,7 @@ I have limited experience with robot trading. Interested in 3D Printing and Robo
 
 📫 Reach me via email.
 
-<img src="ME.png" alt="Me." width="256px" height="256px">
+<img src="Me.png" alt="Me." width="256px" height="256px">
 <!--
 **Greiye/Greiye** is a repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
