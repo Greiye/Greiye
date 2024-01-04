@@ -1,4 +1,4 @@
-<img align="left" src="Me.png" alt="Me." width="128" height="256">
+<img align="right" src="Me.png" alt="Me." width="128" height="256">
 ### Student in Software Engineering, Java Track
 <p>@ WGU.
 🌱 As of Dec 2023, Studying HTML to get ahead for the course material.
