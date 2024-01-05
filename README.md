@@ -1,11 +1,17 @@
-<img align="right" src="Me.png" alt="Me." width="128" height="256">
+<header>
+
 <style>
 body {
   font-family: Garamond, serif;
 }
 </style>
+</header>
+
+
   <body>
-  
+    
+  <img align="right" src="Me.png" alt="Me." width="128" height="256">
+
 
 
     <p>
@@ -23,6 +29,7 @@ body {
     </p>
 
   </body>
+  
 <!--
 **Greiye/Greiye** is a repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
