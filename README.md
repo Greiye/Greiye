@@ -1,8 +1,6 @@
-<header>
+!DOCTYPE HTML
 
-<style>
-body {}
-</style>
+<header>
 </header>
 
 
