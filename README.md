@@ -11,10 +11,12 @@
 
 
 <p>
+    
+# Michael Go
 
-### Student in Software Engineering, Java Track
+Student in Software Engineering, Java Track @ [WGU](https://www.wgu.edu/online-it-degrees/software-engineering-bachelors-program.html).
 
-@ WGU.
+As of January 2024, I am working to get my B.S. in Software Engineering.
 
 🌱 As of Dec 2023, Studying HTML to get ahead for the course material.
 
