@@ -6,7 +6,7 @@
 
 <body>
     
-  <img align="right" src="Me.png" alt="Me." width="128" height="256">
+  <img align="right" src="Me.gif" alt="Me." width="128" height="256">
 
 
 
