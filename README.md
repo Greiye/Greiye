@@ -5,17 +5,19 @@
 
 
 <body>
-    
+
   <img align="right" src="Me.gif" alt="Me." width="128" height="256">
 
 
 
 
 
-<p>
-    
-# Michael Go
 
+    
+
+<div><img align="left" src="NameTagProject.png" alt="NameTag" width="40%" height="40%"></div>
+
+<p>
 Student in Software Engineering, Java Track @ [WGU](https://www.wgu.edu/online-it-degrees/software-engineering-bachelors-program.html).
 
 As of January 2024, I am working to get my B.S. in Software Engineering. 🌱
