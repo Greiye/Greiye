@@ -15,9 +15,9 @@
 
     
 
-<div><img align="left" src="NameTagProject.png" alt="NameTag" width="40%" height="40%"></div>
 
 <p>
+  <img align="left" src="NameTagProject.png" alt="NameTag" width="40%" height="40%">
 Student in Software Engineering, Java Track @ [WGU](https://www.wgu.edu/online-it-degrees/software-engineering-bachelors-program.html).
 
 As of January 2024, I am working to get my B.S. in Software Engineering. 🌱
