@@ -1,4 +1,4 @@
-<!-- !DOCTYPE HTML -->
+b<!-- !DOCTYPE HTML -->
 
 <header>
 </header>
@@ -18,7 +18,7 @@
 
 <p>
   <img align="left" src="NameTagProject.png" alt="NameTag" width="40%" height="40%">
-Student in Software Engineering, Java Track @ [WGU](https://www.wgu.edu/online-it-degrees/software-engineering-bachelors-program.html).
+Student in Software Engineering, Java Track @ <a href="https://www.wgu.edu/online-it-degrees/software-engineering-bachelors-program.html" title="WGU">WGU</a>.
 
 As of January 2024, I am working to get my B.S. in Software Engineering. 🌱
 
