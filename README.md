@@ -54,8 +54,8 @@ I have limited experience with robot trading. Interested in 3D Printing and Robo
   <li>played with Unity/Godot game engines and Blender for 3D modeling</li>
   <li>Made a disfunctional DnD tool using GDevelop (C++, Javascript No Coding) on Itch.io , connecting it to Heroku and Node.js for multiplayer</li>
   <li>Passed an entrance test for GA (General Assembly) Bootcamp, which only asked for High School level HTML/CSS/JAVA knowledge. </li>
-  <li>Certified for Google IT Support as of 2023.</li>
-  <li>Enrolled in WGU College for Software Engineering.</li>
+  <li>Certified for Google IT Support as of Sept 2023.</li>
+  <li>Enrolled in WGU College for Software Engineering in Jan 2024.</li>
 </ul>
 
 
