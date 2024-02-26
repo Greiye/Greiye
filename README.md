@@ -46,8 +46,24 @@ I have limited experience with robot trading. Interested in 3D Printing and Robo
 📫 Reach me via email.
 </p>
 
+<p>Notable Achievements</p>
+<ul>
+  <li>Opened working and dysfunctional toys and machines to see how it works</li>
+  <li>Edited HTML on myspace when it was popular</li>
+  <li>played around with a Raspberry Pi Controller, changed LED lights.</li>
+  <li>played with Unity/Godot game engines and Blender for 3D modeling</li>
+  <li>Made a disfunctional DnD tool using GDevelop (C++, Javascript No Coding) on Itch.io , connecting it to Heroku and Node.js for multiplayer</li>
+  <li>Passed an entrance test for GA (General Assembly) Bootcamp, which only asked for High School level HTML/CSS/JAVA knowledge. </li>
+  <li>Certified for Google IT Support as of 2023.</li>
+  <li>Enrolled in WGU College for Software Engineering.</li>
+</ul>
+
+
   </body>
-  
+
+
+
+
 <!--
 **Greiye/Greiye** is a repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
