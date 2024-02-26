@@ -46,7 +46,7 @@ I have limited experience with robot trading. Interested in 3D Printing and Robo
 📫 Reach me via email.
 </p>
 
-<p>Notable Achievements</p>
+<p>Notable Achievements, Chronological</p>
 <ul>
   <li>Opened working and dysfunctional toys and machines to see how it works</li>
   <li>Edited HTML on myspace when it was popular</li>
