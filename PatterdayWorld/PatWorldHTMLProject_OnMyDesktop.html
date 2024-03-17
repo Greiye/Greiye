@@ -1,0 +1,2443 @@
+<!DOCTYPE html>
+<!--Comment
+    This HTML is written by Michael Go, for his DnD Friends.
+    This file uses Internal CSS. 
+-->
+<!--Learning Comments
+    Oh dang, <details> - open attribute
+    Random Table Generator for the DM? Not sure if that's possible or not.
+    March 17
+    -Want to add a searchable sortable table.
+    -Learned about CSV to html tables.
+    -want to do <aside> stuff.
+    -how to optimize <details>? Selectors? Pseudo-classes? Attribute selectors?
+
+-->
+<html>
+    <head>
+        <title>Pat's World HTML Information Page</title>
+    <style>
+    header{
+        background-color: rgba(219, 208, 195, 0.877);
+        width: 100%;
+        border-radius: 10px;
+        font-size: larger;
+    }
+    body {
+        background-color: rgba(190, 190, 174, 0.356);
+        background-image: url(images/medievaltownfreewallpaper.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color:#333
+    }
+    div {
+        padding: 5px;
+        margin: 10px;
+    }
+    section {
+        padding: 1rem ;
+        margin:5px;
+        background-color: #d6d3c7dc;
+        border-radius: 10px;
+    }
+    h1 {
+        text-align: center;
+        padding: 1px;
+        margin: 1px;
+        font-variant: small-caps;
+        
+    }
+    .undertitle {
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: .8rem;
+        font-variant: small-caps;
+    }
+    details {
+        text-align: center;
+        font-size: 1.4rem;
+        border: 1px #333;
+        border-radius: 0.2rem;    
+    }
+    summary::marker {
+            color: rgb(75, 74, 59);
+            font-size: 1.2em;
+
+    }
+    summary::
+    
+    p {
+        text-align: left;
+        font-size: 1rem;
+        padding: 0px;
+    }
+
+    footer {
+        font-size: 9px;
+        text-align: center;
+        background-color: rgb(230, 218, 205);
+        height: 30px;
+        width: 100%;
+        margin: 0px 0px 0px;
+        border-radius: 5px;
+    }
+    table, th, td {
+        border: 1px solid black;
+
+    }
+    </style>
+    </head>
+<body>
+    <header><h1>World of Erubounesu</h1></header>
+    <div class="undertitle">
+        A DND 5e World by Pat Wong.<br>An adventurous Tale by Pat and friends.
+    </div>
+        <section><!--Recap Page Start-->
+            <details open>
+                <summary>Recap</summary>
+                <h1>Recap Page</h1>
+            <p style="text-align:center">Firius 11</p>
+            <p>The <strong>Silver Dragon Guild</strong> once tasked inexperienced adventurers with rescuing a missing child. Now, they find themselves in a battle against a goblin cult conspiracy.
+                <br>Husk, the Mayor of Assadorth, has sent the main party and another local group to retrieve four important relics before the goblin cults can use them for their evil rituals. Time is critical as they race against both the cults and their rival party to secure the relics first.</p>
+            <p>The group agrees. They break from their huddle and collect supplies for their trip to the Feylands. Their reputation as an adventuring party is at stake.<br><strong>Todo:</strong>
+                <br>Level Up
+                <br>Shopping
+            </p>
+            <p><strong>Dezi</strong> continues his search for a cure to his ferroderma. He considers building his own help, based off an old furry friend.
+            <br><strong>Welt</strong> is still looking for more knowledge, as well as being of service to Oberon. His pact may prove useful in their relic journey to the Feylands.
+            <br>Vildremant knows where <strong>Auri's</strong> tribe is, but won't give such simple information to him. He considers finding said artifacts, or more violent means.
+            <br><strong>Sera</strong> keeps an eye out for ways to prove herself to her family. There is no rest for a budding chef in a world of unexplored ingredients.
+            <br>If <strong>Thorvin</strong> has mentioned what his mission is, the others may not have heard. Still, he travels on.
+            <br>His knuckles ache as <strong>Zephyr</strong> looks to the distance. Out there is a man in particular, and a world of problems. The only solution to both; his fists.
+            </p>
+        
+            <!--Session 8 To be pasted when we start playing again.
+            <details>
+                <summary>Session 8: N/A</summary>
+                <h1>Session 8</h1>
+                <p>March 17 2024</p>
+                <p>Firius 11</p>
+            </details>
+            -->
+            </details>
+        
+        </section><!--Recap Page End-->
+    <div>
+        <div style="width: 100%;"> <!--The two divs that separate the two columns.-->
+            <div style="width: 50%; height: auto; float: left; background: hsla(120, 43%, 81%, 0.74);"> 
+                <section>       <!--Main Characters Start-->
+                    <details>
+                        <summary>
+                            Main Characters
+                        </summary>
+                        <h1>Party members</h1>
+                        <p><strong>Seraphina "Sera" Flameheart</strong> - A Tiefling Cook, who wishes to prove herself to her family's lineage of cooks.</p>
+                        <p><strong>Zephyr Ironfist</strong> - Half Elf Monk who solves every problem with punches. He seeks to solve the problem that is his father.</p>
+                        <p><strong>Welt</strong> - A Human Doctor who seeks knowledge.</p>
+                        <p><strong>Dezi</strong>- A Gnome Artificer with a metallurgical disease that he wishes to cure.</p>
+                        <p><strong>Auri </strong>- A seemingly blind Silver Dragonborn magic user who is looking for his lost dragonborn tribe. Joined the guild for magic.</p>
+                        <p><strong>Thorvin Helmbreaker</strong> - (pronounced torr-vin) A young adult Dwarf Paladin. Wears a black and red hooded chainmail. Carries a warhammer and shield.</p>
+            
+                    </details>
+                </section>      <!--Main Characters End-->
+                <section>       <!--Main and Side Missions Start-->
+                    <details>
+                        <Summary>Main Quest and Side Missions</Summary>
+                        <p><bold><strong>Main Mission</strong></bold>
+                            <br>The Silver Dragons Guild sent us to find the missing child, and we brought her home. But now another missing child. We brought them home too. What is going on with these kidnappings?
+                            <br>Vildremant mentioned that there could be more than one cult. But then again at this point, you can't trust her. All she wants is more artifacts and won't lift a finger unless magic trinkets can be gained. Plus, she sees the main party as competition agains the Golden Dawn Brigade.
+                            <br><br> The Reward. What's the reward being prepared for getting back the 2nd kid? 
+                        </p>
+                        <p><strong>Recent Events</strong>
+                            <br>Tia Lovestrand - An Exiled Women who disappears within Assadorth's town limits.
+                            <br>Kane's Old Coin - What the hell does it do? Tell the truth? forgot.
+                            <br>Thorvinn's Short Sword - Relic from the Caves. Vildremant wants it. She doesn't know we have it. It's with Thorvinn.
+                            <br>Kobold's Blade - He took a golden weapon with him. What does it do?
+                            <br>The Cat's Guard - Seems a band of stray cats hold night watch over Assadorth.
+                            <br>What's in Bristol? - There's another town not too far away. Could be worth a look.
+                            <br>Mayor Husk's Anti-Magic Field - Dezi couldn't see his own magic in there. Why?
+                            <br>Gnome Harness - What else is it good for?
+                            <br>Silver Dragon Guild Emblem, same as Bahamut Dragon Symbol - (Are we actually fighting for Bahamut?)
+                            <br>Eldaf? Goddess of Peace?
+                            <br>
+                        </p>
+                            <p><strong>Character Topics</strong>
+                            <br>Auri - Vildremant knows where his tribe is. She says she wants artifacts. She referred to "The Attack", and called Auri "one of those silver dragons."
+                            <br>Dezi - Whats going on with his gray reptilian disease?
+                            <br>Sera - How is she going to prove herself to her family?
+                            <br>Thorvin - What's he looking for, really?
+                            <br>Welt - What knowledge is he after? How is Oberon helping him?
+                            <br>Zephyr - Where is his father?
+                        </p>
+                    
+                    </details>
+                </section>      <!--Main and Side Missions Start-->
+                <section>       <!--Character Journals Start-->
+                    <details>
+                        <summary>Character Journals</summary>
+                        <h2>Character Journals</h2>
+                        <p>This is the adventure thus far, according to the party:</p>
+                        <h3>Auri:</h3>
+                        <p><strong>Auri</strong><br>><em>(This journal entry looks to be written in a kind of primitive braille. There are little boxes that look to have been formed by a talon or claw of some sort, with little dots pressed into the paper.)</em></p>
+                        <p>Foursday, Firion 4. 1090<br />We have returned the little one to her parent; The blacksmith known as Kane. With this, the Silver Dragon Guild should be pleased. They will reward us with magic trinkets soon.</p>
+                        <p>I have taken injury from our descent into what the group refers to as &lsquo;The Tomb of Artesh&rsquo;. Apparently a slayer of goblins. This is not known to my tribe. My people are simple; Ours is knowledge passed down from the elders. We need only know where the water flows, where to gather herbs and where the great beasts migrate to when the ice melts.</p>
+                        <p>My injuries were healed as quickly as they came, thanks to the one that wields the hammer and his companion. The one known as Lady Cass. I am grateful. Along the journey back to the blacksmith, I asked the hammer wielder and the unarmed one, known as Zephyr, how to fight as they do. They have taught me much. Thus, I purchased a weapon known as a &lsquo;rapier&rsquo;, and armors that befit the warriors of my tribe, made from the dried hide of beasts. I learn quickly. When the familiar sound of a passing arrow comes to my allies, I shall deflect it to the ground, where it shall plant into the soil and sow fruits of failure.</p>
+                        <p>For now, these individuals are my warparty. I rely on them to see what I cannot. The barter must be fair: as much use are they to me, I must be of use to them.&nbsp;</p>
+                        <p>A repeat of Keele&rsquo;s taking has occurred during our rest. 2 human wyrmlings have been stolen in the twilight. Clearly for another ritual attempt by the goblinfolk, to appease this &lsquo;Tiamat&rsquo;. We must find the wyrmlings and return them to the Assadorth townsfolk.</p>
+                        <p>My thoughts circle around the location of my tribe. I tag along, in hopes that the Guild&rsquo;s many eyes can lead me back into the tribe&rsquo;s fold. The townsfolk of Assadorth have pointed me to the grand wizard of the tower, Lorellia Vildremant. She has information on them. I rely on her guidance to return me to them.</p>
+                        <p>What is the relationship between these faiths? <strong>Selune. Bahamut. Tiamat</strong>. What do the goblins hope to achieve with these rituals? Who wrote that Goblin note that Dezi read out to me? Knowledge of this will help us to stop these ritual sacrifices. Such a heroic act will be sure to give our group some renown. I can leverage this. Use this fame to help find my tribe. I must press the wizard <strong>Lorellia</strong> for what she knows.</p>
+                        <p>&hellip;on a side note, I wish to <strong>hear more music</strong> and <strong>taste all the foods</strong> that these unfamiliar lands offer. I find that my lack of sight has enhanced my other senses. It would be a shame to adventure forth and not partake in the local treasures. There is magic in the everyday.</p>
+                        <p>Fivesday, Firion 5. 1090</p>
+                        <p>(The pages are smudged in a light film of mud.)</p>
+                        <p>The feline did not lead us astray. We followed the tracks deep into the western jungle. We spot a smokestack nearby, as seen by Zephyr, which has led us to an <strong>encampment </strong>at the mouth of a cave. Before us, an orc and a terrible troll of great size.&nbsp;</p>
+                        <p>We have returned an orc and his goblin clan back to their god. The troll was not real; an illusion made by magical means.</p>
+                        <p>The <strong>goblins were yellow</strong>; as the black cat Stevie described. Well, As Welt described it to us. We are closer to finding the wyrmlings back to Assadorth.</p>
+                        <p>I held my own with <strong>my new weapon</strong>. I managed to protect the one known as Thorvinn from an orcish strike. But it&rsquo;s not enough. I am used to casting my magicks from a distance where my footing is secure and away from harm. The wet mud underneath is as challenging as the foes we face.</p>
+                        <p>This rapier confuses me. I am met with new challenges that I embrace like a wyrmling.</p>
+                        <p>These <strong>goblins</strong> are unlike the ones I know. My clan has traded with goblins before. I have learned their tongue. I have camped inside their caves and shared bread with them. The ones in this region seem a different breed. They seem to relieve themselves right where they sleep and have no concept of cleanliness. Blood and urine soak their fabrics. They reside in tents out in the open, rather than use the stone of the caves as their home. Is it because they are mobile? These tents&hellip; <em>did they take them from a human clan</em>?</p>
+                        <p>With a brief exchange, I find that the wizard <strong>Vildremant</strong> knows something of my clan. She has known since the time I was a child, when I lost my sight. It has been years since I thought of it. I cannot remember how I even lost my ability to see. Only that it is lost.</p>
+                        <p>We delve further into the jungle. Into the caves. We must find the wyrmlings before they are sacrificed towards whatever Gods these cultists pray to.</p>
+                        <p>(Auri does not know that Welts is looking for a cure of some kind. He only knows that he&rsquo;s out for information, potentially for this &lsquo;Oberon&rsquo;)</p>
+                        <p>Vildremant woman?</p>
+                        <p>Who is the Kobold Speedster?</p>
+                        <p>Eldaf the Goddess of Peace and Wisdom.</p>
+                    </details>
+                </section>      <!--Character Journals End-->
+        
+                <section><!--Last Minute Notes Start-->
+                    <details><summary>Last Minute Notes</summary>
+                        <p>Notes
+                            <br>- People
+                            <br>- Dr Engineer
+                            <br>- Captain Rivas
+                            <br>- Mayor Husk -Human Man
+                            <br>- Stevie the Cat
+                            <br>- Freddy the Cat
+                            <br> Brent, Vildremant's Servant and/or Secretary.
+                            <br>- Golden Dawn Brigade is 5 People. Half Orc Krug, Bard Elf, Kobold Rogue, Wizard Elf Vildremant, and Halfling.
+                            <br> Vildremant
+                            <br> Has said things such as "avoid talking to the common plebian".
+                            <br> Has called Dezi "A weak imitation of a magic user, looking like a dragonborn mix."
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                    </details>
+                </section><!--Last Minute Notes End-->
+            </div>
+            <div style="margin-left: 52%; height: auto; background: rgba(120, 120, 202, 0.747);"> 
+                <section><!--Previous Sessions Start-->
+                    <details><summary>Previous Sessions</summary>
+                    <section>
+                        <details><!--Session 1, October 28 2023-->
+                            <summary>Session 1: The Blacksmith's Daughter</summary>
+                                <sub>(Oct 28 Approximate Start Date)<br>The Region of Elsir Vale<br>Onesday, Firius 1, 1090</sub>
+                                <h2>The Red Goblin Inn</h2>
+                                <p>In the town of Assadorth, an unlikely group of adventurers find each other. The Silver Dragon Guild seems to have hired each of them to find the missing daughter of the local blacksmith, but did not inform them of each other. Inside the Red Goblin Inn, A red Tiefling is causing a stir with an older chef in her 40's, about the establishment's food quality. In the tavern side, a half elf monk sits with 10 flagons of ale. A halfling with 2 crucibles on each side of him, an emaciated human in formal attire and bandages, and a blind dragonborn. A ruckus is caused, which ends with each of these adventurers sitting at the same table. Seeing that they are all affiliated with the Silver Dragon Guild, They agree to work together. They quickly introduce themselves:</p>
+                                <p><strong>Seraphina &ldquo;Sera&rdquo; Flameheart</strong> - A Tiefling Cook, who wishes to prove herself to her family's lineage of cooks.</p>
+                                <p><strong>Zephyr Ironfist -</strong> Half Elf Monk who solves every problem with punches. He seeks to solve the problem that is his father.</p>
+                                <p><strong>Welt -</strong> Plague Doctor who seeks knowledge.</p>
+                                <p><strong>Dezi -</strong> Halfling Artificer with a metallurgical disease that he wishes to cure.</p>
+                                <p><strong>Auri -</strong> A seemingly blind Silver Dragonborn magic user who is looking for his lost dragonborn tribe. Joined the guild for magic.</p>
+                                <h2><strong>The Blacksmith&rsquo;s Daughter</strong></h2>
+                                <p>They interview some of the local people around. Using their combined brain cell, they decipher that the best person to go to about the blacksmith's daughter is the blacksmith themselves.</p>
+                                <p>The party goes to the blacksmith's smithy. They meet Kane, a Halfling blacksmith. They find out several key pieces of information, her potential whereabouts, what she looks like:</p>
+                                <p>The daughter's name is Keele; A Halfling child, with red hair, last seen wearing a commoner's shirt and pants.&nbsp;</p>
+                                <p>The party departs, headed to what the locals call as <strong>The Boar Forest</strong>. There, they find humanoid tracks as described by the blacksmith. They follow the tracks. Along the way, they find medicinal herbs (Auri and Welts find 5 and 4, respectively)</p>
+                                <h2>Night Camp</h2>
+                                <p>The party gathers around the campfire, and share with each other a brief of who they are and what they seek.</p>
+                                <p>Zephyr wants to solve the problem that is his father with his fists.</p>
+                                <p>Welts seeks knowledge and secrets of medicine.</p>
+                                <p>Seraphina wants to prove herself to her family.</p>
+                                <p>Dezi reveals his 'ferroderma' condition as he puts it and seeks a cure. Welts is intrigued by this condition.</p>
+                                <p>Auri puts on a show, using magic to manipulate water. He shows that he was blinded as a child, and that he's looking for his lost clan of fellow Silver Dragonborn.</p>
+                                <p>With a 3 shift night watch, the party rests until daybreak.</p>
+                                <p><strong>End of Session 1</strong></p>
+                        </details>
+                    <!--Session 2-->
+                        <details>
+                            <summary>Session 2: Trouble in the Northern Plains</summary>
+                            <h1>&nbsp;<br />(RWD 3DEC2023)</h1>
+                            <p>Twosday Firius 2 1090</p>
+                            <h2><strong>In Boar Forest</strong></h2>
+                            <p>Party wakes at 5am, close to sun up, hungry. Group decides to forage for food (the group goes to get boar; Auri goes fishing).</p>
+                            <p>While hunting for boars, the group meets a couple; both bear the symbol of the guild:</p>
+                            <p><strong>Lady Cass </strong>takes the form of a beautiful human woman whose clothes are immaculately clean. Her guild symbol is on her necklace.&nbsp;</p>
+                            <p><strong>Thorvin </strong>is a young dwarf paladin man, adorned with a black and red hooded chainmail. In his hands, a warhammer and shield with the guild&rsquo;s symbol at the front.</p>
+                            <p>Zephyr asks who they are. Upon learning that they are from the guild, Zephyr asks that they help catch breakfast. Welt shares that he is a warlock bound by a contract with <em>Oberon</em>, the king of fairies. His contract binds him so that he must protect the forest unless given certain circumstances (necessity and/or threatened)</p>
+                            <p>Sera takes the boar meat and cooks a meal for the party. Despite the attractive look of the meal, it tastes bad.</p>
+                            <p>The group heads off after spending 3 hours on breakfast.</p>
+                            <p>The Boar Forest begins to taper off into <em>The Plains</em><strong><em>.</em></strong></p>
+                            <h2>The Plains</h2>
+                            <p>The party peek over a hill. At the bottom of the hill are 4 goblins, guarding a ravaged door that leads into the hill. The group splits in two and begin their assault on the goblins.</p>
+                            <h2>Battle</h2>
+                            <p>The goblins see the party and retaliate. They are quickly dispatched thanks to a sleep and entangle spell. A goblin patrol appears over the hill and continues the assault as soon as the group heads through the door. Past the door is a narrow hallway (5ft. wide) that is pitch black.</p>
+                            <p>In the first room, a fire brassiere. Some people in the group are seeing that this could be some shrine to Selune.</p>
+                            <p>Second room contains 3 goblins. The group handles these goblins while Thorvinn defends the rear from the goblins outside.</p>
+                            <p>Auri gets incapacitated (2 arrows from the patrol team, up on the hill outside)</p>
+                            <p>Healed back to health by Thorvinn.</p>
+                            <p>Zephyr triggers scythe traps</p>
+                            <p>With the goblin patrol eliminated, the group takes a short rest (1 hour).</p>
+                            <p>They enter a small room (6x10 squares?) with pillars and a shrine at the end. There stands 4 goblins, a hobgoblin and a bugbear. The Blacksmith's Daughter, Keele, caged in the furthest corner. The group defeats the enemies with 1 casualty (Auri ofc) (Javelin to the ribcage)</p>
+                            <p>The enemies are looted (longbow, longsword, chainmail, 3 javelins)<br />Auri slices off goblin ears from the bodies. 16 in total, including the bugbear and the hobgoblin</p>
+                            <p>Covered in blood and mysterious substances, Zephyr violently grabs at the bars of Keele&rsquo;s cage, ensuring her that she is safe and will soon be taken out of the cage.</p>
+                            <p>Keele is freed by Dezi and examined by Welt. She has no major injuries but is extremely malnourished. She is given rations.</p>
+                            <p>They find a puzzle and a note</p>
+                            <p>"The more you take of me, the less there is"</p>
+                            <p>&ldquo;Footprints&rdquo;</p>
+                            <p>Magical footprints lead to the corner of the room. A loose rock switch is discovered. The wall slides up, revealing that the magic footprints leads downstairs .Thorvinn detects undead further down.</p>
+                            <p>Thorvinn discovers a treasure room</p>
+                            <p>Load of coins (</p>
+                            <p>2800 Copper Coins</p>
+                            <p>800 Silver Coins</p>
+                            <p>80 Gold Coins</p>
+                            <p>7 Art Pieces worth 25GP each (Value at 175GP)</p>
+                            <p>A Magic scroll</p>
+                            <p>Someone mentioned that this may be the tomb of <em>Artesh</em> (Welt or Dezi said this)</p>
+                            <p><em>&ldquo;Artesh: the Goblin Slayer. Follower of Bahamut.&rdquo;</em></p>
+                            <p>Someone mentions something about a human sacrifice at dawn.</p>
+                            <p>A Note written in Goblin found in the area:</p>
+                            <table>
+                            <tbody>
+                            <tr>
+                            <td>
+                            <p>Find The Relic.</p>
+                            <p>Do Not Fail Me.</p>
+                            </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                            <p><br /><br /></p>
+                            <p>The group decides to head back to town. It's a day and a half trip. Delving down further will have to wait for another day.</p>
+                            <p>End of Session 2&nbsp;</p>
+                        </details>
+                    <!--Session 3-->
+                        <details>
+                            <summary>Session 3: Keele's Return</summary>
+                            <p>The group feels stronger.<br />Lvl up to lvl 2</p>
+                            <p>Auri - Gets pointers from Zephyr and Thorvinn on how to fight in close quarters combat.</p>
+                            <p>Thorvinn</p>
+                            <p>Dezi</p>
+                            <p>Welt</p>
+                            <p>Sera</p>
+                            <p>Zephyr</p>
+                            <h3>Threesday, Firius 3 1090</h3>
+                            <h2><strong>Returning Keele</strong></h2>
+                            <p>After successfully rescuing Keele from the Goblin infested tomb of Artesh, the party heads back to Assadorth</p>
+                            <p>Lots of travelers in and out of assadorth</p>
+                            <p>Town guard recognizes Keele. The guard advises us to return Keele quickly.</p>
+                            <h2><strong>The Well</strong></h2>
+                            <p>The party sees a well in the center of town. Over the well there are strange writings.</p>
+                            <p>There is magic emanating from the well. Auri is helped by Thorvin to read out the sign on the well. "It sounds of Bahamut, the dragon god."</p>
+                            <p>Welt throws a coin in. A local townsperson sees this and approaches. &ldquo;Ah I see you worship Bahamut as well.&rdquo;</p>
+                            <p>The group returns to bringing Keele home. The father and daughter are reunited.</p>
+                            <p>Kale asks &ldquo;what happened to the other adventurers?&rdquo;</p>
+                            <p>The group thinks about it for a little bit. Some of them flashback to the undead mana emanating from the lower levels of the tomb. It is assumed that the previous visitors of the tomb have perished.)</p>
+                            <p>Kane: As a reward for rescuing my daughter Keele,I want to give you folks a few magical artifacts.　I will also talk to the Red Dragon Inn and pay for the night&rsquo;s accommodations; dinner and the rooms.</p>
+                            <p>&ldquo;I wish for you to have this.This coin has been in my family for some generations now.&rdquo;</p>
+                            <h2><strong>The Coin</strong></h2>
+                            <p>The group has received a small coin. The faces are the same on each side. Auri senses that this item is enchanted.The group spends a fair amount of time examining the coin and its magical properties.</p>
+                            <h2><strong>The Market District</strong></h2>
+                            <p>The party heads to the business district to resupply. They visit the Tanner, the Trader, and the Leatherworker.</p>
+                            <p>Sera manages to pawn all seven paintings that they found in the tomb of Artesh for 30gp each.</p>
+                            <p>Welt commissions for a kind of leather carrier for Dezi and Zephyr.</p>
+                            <p>Auri buys hide armor for 9gp from Tanner the Tanner(Leatherworker) and a Rapier for 25gp. Also caltrops and manacles. The 16 goblin ears begin to rot in his pack. Auri asks if any townsfolk collect these ears as a mark of lessened goblins. They tell him no. Seeing no use to the ears, Auri discreetly throws them in a random ditch by the roadside.&nbsp;</p>
+                            <p>Auri asks the locals if they've seen any silver dragonborns like him around. The Locals share that more information about them can be found in <strong>Brindol</strong>, Specifically from those that follow Bahamut. The chromatic dragon God would know about all of his subjects. They also tell him to check with the wizard up in the tower.</p>
+                            <p>Auri earns 3 gold trying to pass as a blind beggar. Dezi and Welt throw stones at him.</p>
+                            <p>Thorvinn attempted to buy 200gp of armor, but the armor was too expensive.</p>
+                            <p>The group is still perplexed by the coin that Kane gave them.</p>
+                            <p>After shopping around, they again find themselves in front of the Bahamut well. The coin shines after being dipped. The shining light fails mid flip. Any attempt to mark the coin fails, any magic mark or smudge of blood is removed the moment the coin flips in the air.</p>
+                            <p>The party takes a drink of the well&rsquo;s water. They are revitalized.</p>
+                            <p><br /><br /></p>
+                            <h2><strong>The Church</strong></h2>
+                            <p>We go to the local church, which bears the symbol of Selune. A guard stops us, only allowing some of us inside. Welt and Thorvin enter.</p>
+                            <p>When asked about Bahamut, the local priest or presbyter tells us that the markings of the Silver Dragon Guild are the same markings of Bahamut. Our Guild shares ties with the religion. Our current guild is considered the new guild, replacing the old one. (After that, the Sister said something about the sister of Selune?)</p>
+                            <p>Welt: what was the issue with the old guild?</p>
+                            <p>The Sister points to the graveyard,</p>
+                            <p>Welt: Oh.</p>
+                            <p>There are rumors of Goblins worshiping Tiamat, beginning to ritually sacrifice humans to appease the lord.</p>
+                            <p>The Sister mentions Lorellia Vildremant (I think?) .The name of the Wizard.</p>
+                            <p>Welt and Auri go to the wizard tower. A secretary meets us inside. &ldquo;Wizard not here. come back tomorrow.&rdquo;</p>
+                            <p><strong>The Stable</strong></p>
+                            <p>The group stops at the stable and inquires about horses.</p>
+                            <p>Horses for 75gp</p>
+                            <p>Donkey for 8gp</p>
+                            <p>Wagon is 35gp</p>
+                            <h2><strong>The Inn</strong></h2>
+                            <p>The group goes to the Inn to rest.</p>
+                            <p>Zephyr and Sera go right to sleep.</p>
+                            <p>Welt studies the herbs collected in the Boar Forest.</p>
+                            <p>Dezi uses this time to study the coin. After a thorough examination, he sees the coin for what it truly is. A magical artifact that once a day, can answer yes/no questions 10 times. Once per day, it can speak and answer a non-binary question.</p>
+                            <p>Auri and Thorvinn get drunk. The Dragonborn drinks 8 total flagons of ale in 4 hours, while Thorvinn drinks 13 in a single hour. Auri wakes up with a hangover while Thorvinn does not, because of his Dwarvish tolerance to alcohol and poisons.</p>
+                            <h3>Noon Foursday, Firius 4, 1090</h3>
+                            <p>Day 3 of the Adventure</p>
+                            <p>The new Gnome Harness should be complete by now. Zephyr picks it up from the leatherwork shoppe.&nbsp;</p>
+                            <p>There&rsquo;s a commotion in the residential district. The party investigates.</p>
+                            <p>While the party was asleep, two children were taken from their homes in the residential district. The kidnappers used the cover of night to bypass the guards. Much like Keele's kidnapping, there are 2 sets of humanoid tracks that lead from the <strong>Northeast </strong>as well as the <strong>West</strong>. Boar forest is in the North. To the West is a jungle/swamp area.</p>
+                            <p>With newfound power, Welt uses dark magic to talk to a black cat. Welt asks the cat if he saw anyone last night. The cat says that all humans look alike. Aside from that, there <em>were </em>yellow human-like things last night. (Most likely goblins or some kind of variant.)</p>
+                            <p>The black cat named <strong>Stevie</strong> gestures like a hound dog and points west with his snout.</p>
+                            <p>&ldquo;Speak to the other side of town. Find a brown cat named Freddy, who guards that side of Assadorth.&rdquo;</p>
+                            <p>(Someone mention the Golden Dawn Brigade? Who is Captain Rivas? Three injured goblins?)</p>
+                            <h2><strong>The Mayor&rsquo;s Manor</strong></h2>
+                            <p>The group go to the Mayor&rsquo;s Husk&rsquo;s Manor (That also doubles as a kind of schoolhouse). Sera kicks the door down to Mayor Husk&rsquo;s abode. The party interrupts the Mayor&rsquo;s meeting with 5 other people:</p>
+                            <p>-A Half Orc</p>
+                            <p>-An Elf with silk purple clothing with instrument on her back</p>
+                            <p>-A Kobold</p>
+                            <p>-Another Elf. Auri can see that she has an arcane focus on her left hilt, exuding mana. Through Mayor Husk, the group discovers that this elf is the local Wizard who lives in the tower. This Elvish woman is <strong>Lorellia Vildremant.</strong></p>
+                            <p>-Halfling</p>
+                            <p>Lorellia: &ldquo;I avoid talking to the common plebeian.&rdquo;</p>
+                            <p>This could very well be the <strong>Golden Dawn Brigade.</strong></p>
+                            <p>End of Session 3.</p>
+                        </details>
+                    <!--Session 4-->
+                        <details>
+                            <summary>Session 4: The Kidnappings</summary>
+                            <h1>Session 4</h1>
+                            <h1>The Kidnappings</h1>
+                            <p>22 December, 2023</p>
+                            <p>Lorellia calls Dezi &lsquo;a weak imitation of a magic user.&rsquo;<br />&ldquo;You also look like some kind of dragonborn mix with those gray scales behind those bandages.&rdquo;</p>
+                            <p>Welt quietly emphasizes that &lsquo;Lorellia is a hoe.&rsquo;</p>
+                            <p>Auri talks to Lorellia. He brings up his people.</p>
+                            <p>L: What happened to your eyes?<br />A: I lost them long ago.</p>
+                            <p>L: &ldquo;You lost them in that attack right? How unfortunate. You&rsquo;re one of them. The Silver Dragonborns.&rdquo;</p>
+                            <p>The half orc speaks up.</p>
+                            <p>&ldquo;Krug bored. When fight?&rdquo;</p>
+                            <p>Lorellia leaves, along with the Golden Dawn Brigade.</p>
+                            <p>By this time, Dezi is sleeping in the baby carrier on Zephyr&rsquo;s back.</p>
+                            <p>Mayor Husk, a human male, asks the party:</p>
+                            <p>What did you hear or see in Artesh?&nbsp;</p>
+                            <p>any other relics?</p>
+                            <p>The Group is inspired. (roll inspiration or fate points, house rules.)</p>
+                            <p>The group departs from Mayor Husk&rsquo;s Manor and head West, following humanoid tracks. They are tasked to find the 2 missing children. One male teenage child with a bowl cut, black hair, about 4&rsquo;3, likely in black shorts and a shirt and one female, long brown hair, 4&rsquo;1, also teenager, probably in purple one piece nightwear.&nbsp;</p>
+                            <p>Auri forms a &lsquo;W&rsquo; on each hand and follows the group out, loudly whispering &ldquo;Wessst Sideeee&rdquo; to Mayor Husk. While out in Assadorth public, Welt looks for any of the cats. Stevie and Freddy. They are not seen.</p>
+                            <p><strong>Leaving Assadorth</strong></p>
+                            <p>The group heads out, looking to find the yellow goblins in the Western Jungle.</p>
+                            <p><strong>The Plains</strong></p>
+                            <p>The treeline of Assadorth tapers off. The group finds themselves in the plains. There, they set camp. With only the occasional shrub, it&rsquo;s easy to spot any potential threat that comes their way.</p>
+                            <p>Sera catches some rabbits for the night&rsquo;s meal.</p>
+                            <p>Zephyr is on first watch. Then Thorvinn. Then Auri. Their watch is uneventful.</p>
+                            <h3>Morning, Fivesday Firius 5, 1090</h3>
+                            <h2>The Western Jungle</h2>
+                            <p>The plains disappear and now the group finds themselves at the beginning of the Western Jungle. Along the way, they find an area with giant flowers. Auri and Welt discover that these plants are poisonous. Thorvinn is poisoned, handling some plant samples for Welt. The party gains a poisonous herb. It may be synthesized into a poison. The trail leads past the poisonous flowers, and into a thick jungle area. Zephyr uses his shortsword to cut through the brush, leading the way. The thicket does cut up his skin.</p>
+                            <p>Auri finds 2 more medicinal herbs along the way.</p>
+                            <p>The group sees a chimney of smoke. With Sera&rsquo;s bardic inspiration,(she yelled monkey! Monkey! Monkey! Over and over again while banging pots and pans), Zephyr climbs up the tall jungle trees and guides the group safely to the source of the smokestack.</p>
+                            <p>An orc and a troll seem to be guarding an encampment. The orc is cooking meat over a spit. The troll is sitting closeby.</p>
+                            <p>The group plans their method of attack. Sera and Welt work together to create an illusion of a boar, in hopes that the orc is drawn to it. They are unsuccessful.</p>
+                            <p>With the plan having failed, Zephyr runs in and begins the assault.</p>
+                            <h2>Battle</h2>
+                            <p>Zephyr punches the troll, only to find that the troll is an illusion. His punch phases past the troll. Thorvinn and Auri follow suit. The two of them focus on the orc. Sera and Welt provide support from the edge of the camp.</p>
+                            <p>After trading blows, 2 yellow goblin warg riders make an appearance from the jungle. Wielding scimitars, they make passing slashes at Zephyr and Auri. A strategic rapier renders a devastating orc battle axe attack mitigated by Auri. What would have been a slash through chainmail became a superficial scratch.</p>
+                            <p>The orc is killed, decapitated by Thorvinn. The goblins and a Warg are killed by Welt via black eldritch blasts that take the form of black penises.&nbsp;</p>
+                            <p>All throughout the battle, Auri kept falling due to the slippery mud. Thorvinn got tripped by a warg and also fell.</p>
+                            <p>&ldquo;Fancy meeting you here.&rdquo; says Auri, when he hears Thorvinn fall down lower, assuming he too lost his footing to the mud.</p>
+                            <p>Zephyr fists a warg right before it meets its end to Thorvinn&rsquo;s hammer. Zephyr&rsquo;s arm is elbow deep in blood and feces.</p>
+                            <p>End of battle</p>
+                            <h2>Battle Aftermath</h2>
+                            <p><em>Loot</em></p>
+                            <p>Orcish Greataxe (taken by Thorvinn)</p>
+                            <p>Javelins</p>
+                            <p>Food</p>
+                            <p>Arrows</p>
+                            <p>Auri and Thorvinn each take a tent.</p>
+                            <p>These yellow goblins match the descriptions that the black cat Stevie spoke of. Most likely the ones that took the children.</p>
+                            <p>A short rest. The group investigates the area. The 10 or so tents in the area house no residents; everything is smeared in blood and goblin fluids. Past the camp, an entrance to a cave.</p>
+                            <p>Sera cooks the roasted boar meat that Auri has been keeping fresh this whole time, for the past 2 days. Auri carves a 3x5 inch warg hide from the remains of the wargs. He also takes the orc head, but decides to slice and keep only the ears. It may make for an intimidation tool in the future.</p>
+                            <p>The troll was an illusion. Auri digs at the base. The soil is soft, meaning that it was recently placed in the camp. An illusion rune carved in stone. Welt scratches the rune inscriptions, which disables the illusion.</p>
+                            <p>Finishing a brief rest, the group continues their search for the missing children. They enter the cave. Throughout the entire battle, Dezi was fast asleep in Zephyr&rsquo;s gnome carrier.</p>
+                            <h2>The Caves</h2>
+                            <p>The cave is dark, dimly lit by glowing mushrooms. The cave is wet, with the occasional sound of a water droplet hitting a pool.</p>
+                            <p>Auri lights a lantern and takes a look; to no avail because he is blind. What he does see, is that the cavern is filled with faint magic; enough to where he can tell where the surfaces are.</p>
+                            <p>Dezi stirs, and wakes up.</p>
+                            <p>Session 4 ends.</p>
+                        </details>
+                    <!--Session 5-->
+                        <details>
+                            <summary>Session 5: The Jungle Caves</summary>
+                            <h1>Session 5</h1>
+                            <h1>The Jungle Caves</h1>
+                            <p>2024</p>
+                            <p>The group delves deeper into a Goblin encampment, hoping to rescue one of the missing Assadorth children.</p>
+                            <p>7 January</p>
+                            <p>New Rule: 1 minute to discuss before battle</p>
+                            <p>Zephyr tired from battle, witnessing BBC eldritch blasts from Welt</p>
+                            <p>One goblin hit so hard he exploded into a meat mist previously.</p>
+                            <p>Humid.</p>
+                            <p>Disad. Perception changes.</p>
+                            <p>Loose dirt pile. Sera pushes it with harmless tremors. It&rsquo;s a rune.</p>
+                            <p>Magical Darkness?</p>
+                            <p>We all step out. Past the darkness, we see more loose dirt piles.</p>
+                            <p>Zephyr is in a trance.</p>
+                            <p>Dezi thrown over a loose dirt patch.</p>
+                            <p>Lamp suspended by mage hand goes out.</p>
+                            <p>Encounter a waterway</p>
+                            <p>Welt gropes the water. A glyph. Darkness disappears.</p>
+                            <p>Tie Longsword to rope. Use it to see how deep the water is.</p>
+                            <p>Murky Water gets deeper the further the party goes.</p>
+                            <p>Enter a dome room in the cave partially submerged in water. Party passes through it.</p>
+                            <p>Vines overhead</p>
+                            <p>Hear the crocodile</p>
+                            <p>Auri uses a torch and shape water to reveal the crocs in the water</p>
+                            <h2>Battle</h2>
+                            <p>Crocodiles</p>
+                            <p>Auri gets severe damage. Takes a deep breath, focuses on battle (FIghter Second Wind). See the blood staunch.</p>
+                            <p>Hex on the middle croc</p>
+                            <p>Rapier in the croc mouth</p>
+                            <p>Hammer on the head, dead. Smash hinds legs. Floating.</p>
+                            <p>Rapier negates damage, crocs attack weakly. Some bite marks on Sera.</p>
+                            <p>Welts is severely damaged.</p>
+                            <p>Crucible fires up, hits croc right in the face. Melts. Chars. And on the back too.</p>
+                            <p>Welt&rsquo;s BBC blast right into the last croc&rsquo;s eyeball.</p>
+                            <p>Slime Button at the bottom of the 25 feet of water where the crocodiles come from.</p>
+                            <p>Magic traverses, runs towards a direction.</p>
+                            <p>Auri Butchered Crocodile. Got Crocodile Scales.</p>
+                            <p>Thorvinn gets a croc tail. Hands to Auri to keep frozen.</p>
+                            <p>Auri: &ldquo;Dezi, what is this stone you gave me?&rdquo;</p>
+                            <p>Shake it.</p>
+                            <p>Stone: <em>&ldquo;Biiiiiiiiiitch&rdquo;</em></p>
+                            <p>&hellip;.</p>
+                            <p>Hear Goblin chatter in the distance</p>
+                            <p>Hear a child whining and crying.</p>
+                            <p><strong>Magic Colors Reference</strong></p>
+                            <p>Conjuration Faint Green Blue</p>
+                            <p>Evocation Red</p>
+                            <p>Transmutation Silver</p>
+                            <p>Necromancy Greenish Black</p>
+                            <p>Ilusion- Pink Rainbow</p>
+                            <p>Abjuration - Bright Green</p>
+                            <p>Vines is about 50 ft long going up</p>
+                            <p>They&rsquo;re just in the way</p>
+                            <p>Wall face is climbable</p>
+                            <p>&hellip;</p>
+                            <p>Water/Entangle Trap</p>
+                            <p>We get entangled.</p>
+                            <p>We cut ourselves free from the living vines</p>
+                            <p><br /><br /></p>
+                            <p>Silver Transmutation Energy shoots from button</p>
+                            <p>Goblins coming</p>
+                            <p>We hear the vine trap rearm</p>
+                            <p>We plan to wait in hiding, have the goblins follow us and trap them in the trap we just escaped from.</p>
+                            <p>Auri rolls 4 stealth, everyone else rolls fine?</p>
+                            <p>A number of goblins are on their way.</p>
+                            <p>End of Session 5.</p>
+                        </details>
+                    <!--Session 6-->
+                        <details>
+                            <summary>Session 6: Lost Child in the Caves</summary>
+                            <h1>Session 6</h1>
+                            <h1>Lost Child in the Caves</h1>
+                            <p>Feb 4</p>
+                            <p>The party is in a jungle cave, in the midst of rescuing one of the Assadorth children.</p>
+                            <p>Goblins Killed.</p>
+                            <p>Gelatinous Cube almost gets Thorvinn</p>
+                            <p>Child Rescued.</p>
+                            <p>Kobold took the Relic.</p>
+                            <p>End of Session 6</p>
+                            <p>Level Up to Lvl 3</p>
+                            <p>Thrown in Data March 9<br /><br /></p>
+                            <p>In the room with vines hanging overhead: Goblins begin to move in. Auri and Dezi hear them talking.</p>
+                            <p>Auri exposes himself to speak in Goblin, telling them that his team is an infiltration team, sent by Bahamut. This causes the 3 goblins to further train their arrows on Auri. There is unease. Tension. Anger in the air. Auri shapes water behind him, using ice figurines to inform his party about the 3 goblins archers in front of him.</p>
+                            <p>"Boss!" one of the 3 goblins calls out.</p>
+                            <p>A larger goblin appears. Goblin Boss as the other goblins refer to him. They say they're looking for the relic as well.</p>
+                            <p>Goblin Boss</p>
+                            <p>"You mentioned higher ups. Which higher ups are you referring to?"</p>
+                            <p>Goblins</p>
+                            <p>"Who goes there? Reveal Yourself!"</p>
+                            <p>Auri</p>
+                            <p>"Oh, here, they gave you a recording on a stone lemme just hand that to yo-ICE KNIFE</p>
+                            <p>A shard of ice flies out, catching one of the goblins in the neck.</p>
+                            <p>The Goblin boss uses a goblin from behind as a shield effortlessly. A small stack of goblin bodies forms from the Boss's figure, immediately 30 ft down.</p>
+                            <p>Auri kills 3.</p>
+                            <p>Zephyr rushes and punches an archer on the ground vine level.</p>
+                            <p>Dezi sends out a firebolt from his crucible. It burns the goblin boss</p>
+                            <p>Sera tells the grounded goblin archer that he needs to apologize to his momma, which sends him into a catatonic state.</p>
+                            <p>In retaliation, the goblin boss throws a javelin and it kills the one catatonic goblin. There is a hint of regret on the boss's face. He says something along the lines of 'I meant to do that' or 'Let that be a lesson to you.``</p>
+                            <p>Goblins Boss says "Kill the Kid."</p>
+                            <p>Queue time constraint for the group to rescue the child.</p>
+                            <p>Zephyr tries to throw Dezi up the 30ft cliff face. Fails. Dezi recovers by doing a cartwheel back to safety. Auri and Welt make 10/10 signs to appreciate Dezi's sudden gymnastic ability.</p>
+                            <p>Auri and Welt make a '10' card signs to signify the great dex save</p>
+                            <p>Sera and Dezi practically gymnasts 15ft in air</p>
+                            <p>human child sacrifice</p>
+                            <p>find the relic. do not fail me. sacrifice at dawn</p>
+                            <p>bring human sacrifice</p>
+                            <p>goblin obviously sticking out from hiding spot</p>
+                            <p>see kid in cage</p>
+                            <p>thorvinn tries a gymnastic move in heavy armor, yamchas on the floor</p>
+                            <p>The big bad evil guy gets sounded and BBC&rsquo;ed to death</p>
+                            <p>flan group?</p>
+                            <p>What is flan?</p>
+                            <p>statues on the ledge?</p>
+                            <p>Auri kidnaps a goblin</p>
+                            <p>Gelatinous Cube attacks.</p>
+                            <p>Dak the Goblin is killed by a fast, almost unseen force.</p>
+                            <p>Kobold from the Golden Dawn Brigade took our short sword relic</p>
+                            <p>in infernal is says&ldquo;legends of singing fish&rdquo;</p>
+                            <p>Item is demonic origin?</p>
+                            <p>Dezi mentions weapons with other elements? blade was electric?</p>
+                            <p>leave Dak the Goblin on the altar</p>
+                            <p>collect the other ears (6 total goblins?)</p>
+                            <p>A fast, invisible Kobold, assumingly from the Golden Dawn Brigade, has taken the relic from the forest caves.</p>
+                        </details>
+                    <!--Session 7-->
+                        <details>
+                            <summary>Session 7: Returning the Child</summary>
+                            <h1>Session 7</h1>
+                            <h1>Return the Child</h1>
+                            <p>Real World Session Date: March 9 2024</p>
+                            
+                            <p>Story continues right after the group leaves the Western Jungle Caves. The group recover one of the two relics found in the caves. The other relic a glowing blade, was swiftly taken by a Kobold, that the party assumes is from the Golden Dawn Brigade.</p>
+                            <p>- There is mention of the magical coin. One side is believed to be true, up to 10 times per day.</p>
+                            <p>- Dezi Weighs about 49lbs.</p>
+                            <p>Nighttime</p>
+                            <p>On the way home to Assadorth, the group encounter a strange, hooded female figure in the night. She stands among the leaves and brush.</p>
+                            <p>Sera: "Hey!"</p>
+                            <p>No response.</p>
+                            <p>Sera: "If you want to fuggin' ignore me that's fine, I guess"</p>
+                            <p>The figure leaves.</p>
+                            <p>Sera: "Psst! Hey! I saw a hooded lady!"</p>
+                            <p>Zephyr: "It was dark, you just saw shadows.</p>
+                            <p>Sera: "I'm telling you I saw something! Are you calling me a liar? Do you think I'm lying?"</p>
+                            <p>Zephyr: "No, I think you're crazy!"</p>
+                            <p>Zephyr rouses everyone up. They spend some time looking for the hooded woman.</p>
+                            <p>To no avail. If there was a woman around, she's gone.</p>
+                            <p>Sunrise</p>
+                            <p>Desi infuses a weapon. (I don't remember who's and with what)</p>
+                            <p>The hooded figure reveals herself.</p>
+                            <p>???: "My name is <strong>Tia Lovestrand</strong>.</p>
+                            <p>She appears as an Elven woman, with a long ponytail. Her face is covered up with a fabric mask.</p>
+                            <p>Tia: "I ask of you for help. I am by origin, exiled, from an Elven town to the North. I have settled in Assadorth for 10 years, and it is only now that I cannot enter the town.</p>
+                            <p>While I fare decently among nature, It is uncomfortable. 100 yards away from Assadorth's gates, I am transported to my Elven town, a distance away."</p>
+                            <p>Auri asks Tia: "Do you know this child?"</p>
+                            <p>He picks up the saved child from the caves.</p>
+                            <p>Tia:</p>
+                            <p>No, I do not know who this is.</p>
+                            <p>(I'm not sure if she said this.)</p>
+                            <p>All I can remark is... the town of Assadorth is an oddity.</p>
+                            <p>Thorvinn and Co.:</p>
+                            <p>"Will you join us? " to Assadorth. Let's see what happens when you're close to Assadorth gates."</p>
+                            <p>Tia nods.</p>
+                            <p>She follows the group to Assadorth.</p>
+                            <p>When the party is close enough, everyone watches as Tia kneels over, then disappears.</p>
+                            <p>The party is lightly shocked. With nothing else to say to this, they continue on their way to return the child.</p>
+                            <p>Assadorth Guard</p>
+                            <p>"Oh, you found the kid, huh? Good on you. (Or something like that.)</p>
+                            <p>The child simply leaves the party, and straight to his home. (or her?)</p>
+                            <p>Afternoon</p>
+                            <p>#### Mayor Husk's Manor/Schoolhouse</p>
+                            <p>Dr. Engineer?</p>
+                            <p>???:</p>
+                            <p>The Mayor will see you now.</p>
+                            <p>Thorvinn presents the sword from the caves. (I don't remember the reaction to it.)</p>
+                            <p>??? Party:</p>
+                            <p>"Mayor Husk, do you know someone named Tia Lovestrand?"</p>
+                            <p>Husk:</p>
+                            <p>"...No. I don't. Should I?"</p>
+                            <p>??? Party:</p>
+                            <p>"..."</p>
+                            <p>Dezi fixes his glasses to sit properly on the bridge of his nose. This is what the untrained eye sees. In reality, he's just casted detect magic on Mayor Husk's office.</p>
+                            <p>Not a single item shines with mana, not even Dezi's belongings, which are undeniably charged and infused with magical energy.</p>
+                            <p>This means that there is something off with the Mayor's office. A potential anti-magic field. The mayor may or may not be aware of this.</p>
+                            <p>Husk:</p>
+                            <p>"Come back to my office tomorrow. I'll have your reward prepared. Until then, rest easy. You have done the town a service by bringing home one of the missing children. The Golden Dawn Brigade managed to bring home the other child even sooner; just yesterday actually."</p>
+                            <p>"I'll send word to the Red Goblin Inn. You need not worry about the price of lodgings or accomodations. It will be covered by the mayor's purse. Good Day."</p>
+                            <p>The group begins to leave. Auri stops.</p>
+                            <p>Auri:</p>
+                            <p>"Vildremant... she is where?"</p>
+                            <p>Husk:</p>
+                            <p>"Most likely in her tower, as usual."</p>
+                            <p>Auri:</p>
+                            <p>"..."</p>
+                            <p>Auri makes a "W" with both hands.</p>
+                            <p>:</p>
+                            <p>"West sideeeeeeee" (A reference from an earlier session.)</p>
+                            <p>Welts returns, seeing this display of ignorance from the corner of his eye and slaps Auri's hands down. Auri looks at his direction in feigned disapproval.</p>
+                            <p>.......</p>
+                            <p>(A potentially had conversation, I forgot who said what.)</p>
+                            <p>Thorvinn:</p>
+                            <p>"This town truly is odd. The night of the kidnappings, a guard had been injured; another slain. Yet nothing changes."</p>
+                            <p>Zephyr:</p>
+                            <p>"You think they're... letting them get taken?"</p>
+                            <p>Thorvinn:</p>
+                            <p>"Hmm. Hard to say. Maybe that elven woman had a point. Maybe there was something to Assadorth."</p>
+                            <p>Zephyr:</p>
+                            <p>"Oh, the Elven woman with the... "*gestures with his hands that she had large breasts</p>
+                            <p>"Tia Tittykaka. Tia Tamera. Tia Sweet-tits. Something like that."</p>
+                            <p>The Well of Bahamut</p>
+                            <p>Along the way, the group sees another person paying homage to Bahamut by flipping a coin into the well.</p>
+                            <p>(There is talk, I forgot what exactly. I think they said that Bahamut saved the town of Assadorth, according to Mayor Husk?)</p>
+                            <p>The group splits ways for a few moments.</p>
+                            <p>Captain Rivas</p>
+                            <p>Auri and Zephyr</p>
+                            <p>Zephyr:</p>
+                            <p>"Let me do the talking."</p>
+                            <p>???</p>
+                            <p>"...Honored to help Assadorth.</p>
+                            <p>I've been in town for about 5 years.</p>
+                            <p>???</p>
+                            <p>"...Vildremants? Tell us what you know."</p>
+                            <p>Captain Rivas:</p>
+                            <p>"Oh, the Vildremant family? They've been in Assadorth for about 10 years now, as wizards.</p>
+                            <p>Lorelia's parents are still alive. "(One parent is an elf and a human, maybe)</p>
+                            <p>They're known for their magic, research, and notable action."</p>
+                            <p>As long as 'you guys' been around."</p>
+                            <p>(You guys? The captain remembers us. Maybe as the Silver Dragon Guild.)</p>
+                            <p>Auri notices that the captain's gear is slightly magical.</p>
+                            <p>Auri/Zephyr</p>
+                            <p>What can you tell us of Tia Lovestrand?</p>
+                            <p>Captain Rivas:</p>
+                            <p>"I... have no memory of who that is."</p>
+                            <p>Zephyr's and Auri's Thoughts</p>
+                            <p>Is Assadorth in some kind of magical bubble? Is there an anti-magical field that stems close to Mayor Husk's Manor? Is this a curse? Could the cult be involved?</p>
+                            <p>Someone mentions that Dezi's arm does look like dragonscale.</p>
+                            <p><strong>The Well, Again</strong></p>
+                            <p>The same guy from the other time is still paying homage to Bahamut.</p>
+                            <p>Mentions "Tiamat, the Queen of the Chromatic Dragons", and King Tiamat, the King of Dragons"</p>
+                            <p>"It was king Bahamut that once saved Assadorth from bandits." (Or did Mayor Husk say this?)</p>
+                            <p>The party looks at his reactions. It seems the man genuinely believes that Bahamut saved Assadorth.</p>
+                            <p>The Blacksmith Kane and the sword</p>
+                            <p>Thorvinn, Sera and Dezi</p>
+                            <p>Thorvinn</p>
+                            <p>"I need you to take a look at this sword. We found it in the Western Jungle caves."</p>
+                            <p>Kane</p>
+                            <p>"I'll take a look."</p>
+                            <p>The group meets back up, at the Vildremant Wizard Tower.</p>
+                            <h2>Vildremant Wizard Tower</h2>
+                            <p>5PM, Some sunlight out.</p>
+                            <p>The same human male servant from before answers the door.</p>
+                            <p>Servant:</p>
+                            <p>"... Yes? A visit for Ms. Lorelia Vildremant, I suppose?"</p>
+                            <p>Auri nods.</p>
+                            <p>"... She is indisposed at the moment. You may wait outside."</p>
+                            <p>Auri:</p>
+                            <p>"Wait. Sure a wizard as esteemed as Vildremant has a waiting area for her visitors?"</p>
+                            <p>"No, she does not."</p>
+                            <p>"Ah. So. You mean to say that your master does not have the resources for a simple room for those that wish to see her?"</p>
+                            <p>"Yes. There is no waiting room."</p>
+                            <p>"Hmm."</p>
+                            <p>"You may wait here until you are received."</p>
+                            <p>1 hour passes.</p>
+                            <p>"She is still busy. You may continue to wait out here."</p>
+                            <p>Thorvinn</p>
+                            <p>"WHELP. I'm not waiting around for her. I'm headed to the Inn."</p>
+                            <p>Thorvinn leaves to consume copious amounts of meat and ale at the Red Goblin Inn.</p>
+                            <p>Another hour passes.</p>
+                            <p>7PM. Nightfall.</p>
+                            <p>"She is ready to receive you now."</p>
+                            <p>...</p>
+                            <p>As the party heads up, Auri makes small talk.</p>
+                            <p>Auri:</p>
+                            <p>"So... servant. What is your name?"</p>
+                            <p>???</p>
+                            <p>"... My name is Brett."</p>
+                            <p>Auri:</p>
+                            <p>"..."</p>
+                            <p>Brett: Vildremant&rsquo;s Servant from the tower.</p>
+                            <p>....</p>
+                            <p>The party enters Vildremant's study, which from the outside appears to be the 5th or 6th level of the tower.</p>
+                            <p>Although Auri cannot see the area as the others do, he does note that to him, the room is radiantly bright with the sheer magical pressure of tomes and artifacts. The difference is night and day.</p>
+                            <p>:</p>
+                            <p>Vildremant appears with her tan brown skin, blonde hair and signature cigarette from her long holder.</p>
+                            <p>Lorelia Vildremant: "Oh. It's you. What do you want?"</p>
+                            <p>Some members of the group ask her questions.</p>
+                            <p>Auri: "Where is the Kobold?"</p>
+                            <p>Vildremant: "...Who?"</p>
+                            <p>Auri: "You know who I'm talking about. The Kobold. He was there, in the Western Jungles caves with us as we saved the child."</p>
+                            <p>Vildremant: "I haven't the slightest who you're talking to."</p>
+                            <p>Auri: "... Both our groups were to work together for the benefit of Assadorth. This is not how you treat your allies."</p>
+                            <p>Vildremant: "We don't need allies. The Golden Dawn Brigade is more than capable of handling these tasks ourselves."</p>
+                            <p>Zephyr: "Tell us more about the cult."</p>
+                            <p>Vildremant: "Which one? There isn't just one, after all."</p>
+                            <p>Auri: "You won't tell me anything about my tribe, are you?"</p>
+                            <p>Vildremant: "... Information. What I want is information. A trade. You give me what I want, You'll get your information."</p>
+                            <p>Auri: "And what do you want from me?"</p>
+                            <p>Vildremant: "... Artifacts."</p>
+                            <p><br /><br /></p>
+                            <p>Auri Asks about Tia Lovestrand</p>
+                            <p>Auri: <br /><br /></p>
+                            <p><br /><br /></p>
+                            <p>The group continues to talks to Vildremant, asking questions.</p>
+                            <p>Vildremant:</p>
+                            <p>"There is something you can help me with. "</p>
+                            <p>It's for the Bard of the Brigade. (From a previous session, It's known that she wears a purple silk shirt and has an instrument slung over their shoulder.)</p>
+                            <p>"I need information on... A short sword that bears the image of a fish."</p>
+                            <p>Auri remembers that the short sword that Thorvinn gave to the Blacksmith Kane had an insignia, 'The Singing Fish', written in Infernal. (Translated by Sera, Session 7, Western Jungle Caves).</p>
+                            <p>Auri casts message behind his back to Zephyr</p>
+                            <p>"I know about this. I'll tell you later."</p>
+                            <p>"Ahem."</p>
+                            <p>Vildremant: "You are in the bowels of the Vildremant Tower, surrounded by many an arcane artifacts, in front of Vildremant herself. You think to cast a spell in front of me and presume I wouldn't notice?"</p>
+                            <p>Auri: "We'll have information about this 'singing fish', ready for you by tomorrow. Shall we set up an appointment?"</p>
+                            <p>Vildremant looks annoyed.</p>
+                            <p>Vildremant: "...Not before my meeting with Husk. I assume you'll be there, as well."</p>
+                            <p>"It will have to be then. Have it ready."</p>
+                            <p>The group leaves the tower.</p>
+                            <p>Auri tells the group what he knows.</p>
+                            <p>Auri: "The information that the witch wants, is related to that short sword that Thorvinn recovered. It has a singing fish and some text, inscribed in Infernal. Sera read it out to us."</p>
+                            <p>"That short sword is our one card hand in the game that Vildremant plays. Let's see what she and the mayor have in store for us tomorrow."</p>
+                            <p>Inn</p>
+                            <p>The group relax at the inn. Some go right to sleep, some have a meal.</p>
+                            <p>The Next Day</p>
+                            <p>Mayor Husk's Manor</p>
+                            <p>The two groups collect in the Mayor's office. It's spacious enough for the 10+ group of people. Among the Golden Dawn Brigade, there is not only Vildremant, but the Kobold that she said she knew nothing of.</p>
+                            <p>Auri sees the Kobold&rsquo;s mana. He casts the message spell and whispers to him. With the help of Zephyr, he sends a message.</p>
+                            <p>Auri: "The Kobold, he's there?"</p>
+                            <p>Zephyr: "No, here, I'm gonna point at him with your middle finger. To the right, yeah- right there."</p>
+                            <p>Auri: "Ah."</p>
+                            <p>"FUCK YOUUUUUUU. You can reply to this message." Auri points angrily with two middle fingers, with the fingers pointed towards the kobold horizontally rather than in the vertical tradition. The Kobold hears him telepathically, but does not reply.</p>
+                            <p>Husk:</p>
+                            <p>"Ah, good, you're all here."</p>
+                            <p>"Let's keep this short. First and foremost, thank you to both teams for promptly returning the children. The Golden Dawn Brigade brought home one of Assadorth's futures, with the other team following suit just a day later.</p>
+                            <p>So. The Relics."</p>
+                            <p>Husk reveals a map.</p>
+                            <p>"It seems that the goblin cult, or whoever is taking our children, needs these relics for a ritual of some kind.</p>
+                            <p>We know where these relics are."</p>
+                            <p>Husk points to 4 places on the map on his desk. The 4 points have wooden miniatures depicting the area's climate.</p>
+                            <p>"There's a relic in the Volcanic Mountains here, in the Snowy Tundra, the Swamps and the Feylands.</p>
+                            <p>It doesn't matter to us if you two groups work as a team or against each other to recover these artifacts. What's important is keeping the relics away from the hands of bad actors.</p>
+                            <p>The two parties huddle up.</p>
+                            <p>Thorvinn: Okay. Which one are we doing first?</p>
+                            <p>Welt: Auri, aren't you based on cold magic? So you would excel in the tundra.</p>
+                            <p>Sera: I'm not ready to face my family just yet.</p>
+                            <p>Dezi: What do you mean by that, Sera?</p>
+                            <p>Zephyr: What about Feylands?</p>
+                            <p>Welt: My Patron is Fey. I think I'll have an advantage there.</p>
+                            <p>Sera: Let's go to the Feylands.</p>
+                            <p>Auri: I vote for the Feylands as well. That's 3v3.</p>
+                            <p>Zephyr: I vote for Feylands as well.</p>
+                            <p>Thorvinn: Looks like we're going to the Feylands.</p>
+                            <p>Auri reaches into his pocket and brings out a key ring of goblins ears, kept in fresh condition by cold magic. Auri separates a specific goblin ear from the rest.</p>
+                            <p>Auri: "For Dak."(Session 7, the Goblin that was taken captive and killed by the Brigade's Kobold)</p>
+                            <p>Welt: "Oh Gods- throW that awaY alreaDYY"</p>
+                        </details>
+                    </section>
+            
+                    </details>
+                </section><!--Previous Sessions End-->
+                    <section><!--Glossary of Game Meta Start-->
+                        <details>
+                            <summary>Glossary of Game Meta</summary>
+                <!--Copy/Pasted Table of Locations from
+                                https://www.tablesgenerator.com/html_tables#
+                                You can save/load the tables there.
+            
+                This is the Locations Table-->
+                            <div>
+                            <p>Locations</p>
+                            <style type="text/css">
+                                .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+                                .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+                                font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+                                .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+                                font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+                                .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+                                @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+                                <div class="tg-wrap"><table class="tg">
+                                <thead>
+                                <tr>
+                                    <th class="tg-0pky">Settlement or Natural Region</th>
+                                    <th class="tg-0pky">Locations</th>
+                                    <th class="tg-0pky">Information</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="tg-0pky">Assadorth</td>
+                                    <td class="tg-0pky"><br></td>
+                                    <td class="tg-0pky">A small town where the adventure begins.<br></td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">The Red Goblin Inn</td>
+                                    <td class="tg-0pky">Seemingly owned by an older woman in her 40's. She's had a conversation before with Sera, after Sera was upset by the quality of the food served.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Kane's Smithy</td>
+                                    <td class="tg-0pky">Owned by the Halfling Blacksmith Kane. It was his daughter Keele, who was first taken by the goblins. Keele has red hair, much like her father.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">The Well of Bahamut</td>
+                                    <td class="tg-0pky">A place that people come to toss a coin into every now and again. The waters are refreshing and invigorating.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Church of Selune</td>
+                                    <td class="tg-0pky">Thorvinn entered here before.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Market District</td>
+                                    <td class="tg-0pky">Where travelers can find equipment for their travels.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Tanner's Leatherworks</td>
+                                    <td class="tg-0pky">A Leather store. related to the tannery, potentially.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Tannery</td>
+                                    <td class="tg-0pky">A Leather Tannery.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">The Trader</td>
+                                    <td class="tg-0pky">A Trader.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">The Wizard's Tower (Vildremante Tower)<br></td>
+                                    <td class="tg-0pky">Occupied by Lorelia Vildremante. Her family has been Assadorth's wizard presence for many decades.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">The Residential District</td>
+                                    <td class="tg-0pky">Lacking in security. Two children had been taken in the night.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Mayor's Manor and Schoolhouse</td>
+                                    <td class="tg-0pky">Mayor Husk's Residence.<br></td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky">Brindol</td>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Not yet Visited.<br>The town of Brindol was mentioned at some point.<br></td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky">Western Swamp Jungle</td>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Has yellow goblins, wargs, and orcs.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Jungle Caves</td>
+                                    <td class="tg-0pky">Where the 2nd Child was found. Inside were strange runes on the floor, crocodiles, and a gelatinous cube.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky">The Boar Forest</td>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">North of Assadorth. Titled the Boar Forest for its abundance of wild boars. Medicinal herbs can be found here.</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky">The Plains</td>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">Grassy plains. some goblins can be found here.<br></td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-0pky"></td>
+                                    <td class="tg-0pky">The Tomb (of Artesh?)</td>
+                                    <td class="tg-0pky">Seems to have belonged to someone named Artesh. This is where Keele was found. Artesh is involved with goblins or dragons.<br><br>Inside was some kind of cult, goblins who guarded the outside, and a hob goblin.<br><br>The Tomb's lower levels have yet to be explored. The main party decided not to chance any further injuries.</td>
+                                </tr>
+                                </tbody>
+                                </table></div>
+                            </div>
+                <!--This is the Lore Table.-->
+                            <div>
+                             
+                                <style type="text/css">
+                                    .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+                                    .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+                                    font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 14px;word-break:normal;}
+                                    .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+                                    font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 14px;word-break:normal;}
+                                    .tg .tg-buh4{background-color:#f9f9f9;text-align:left;vertical-align:top}
+                                    .tg .tg-jrpd{border-color:inherit;font-size:x-large;text-align:left;vertical-align:top}
+                                    .tg .tg-btxf{background-color:#f9f9f9;border-color:inherit;text-align:left;vertical-align:top}
+                                    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+                                    .tg .tg-0lax{text-align:left;vertical-align:top}
+                                    @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+                                    <div class="tg-wrap"><table class="tg">
+                                    <thead>
+                                    <tr>
+                                        <th class="tg-jrpd">Lore Topic</th>
+                                        <th class="tg-jrpd">Information</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="tg-btxf">The Adventuring Party</td>
+                                        <td class="tg-btxf">A band of adventurers hired by the Silver Dragon Guild.<br><br>Members<br>Auri<br>Dezi<br>Sera<br>Thorvin<br>Welt<br>Zephyr<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0pky">Auri</td>
+                                        <td class="tg-0pky">A Dragonborn Sorcerer. He's blind. He wears his Silver Dragon Guild Insignia on a bandage over his eyes.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-btxf">Dezi</td>
+                                        <td class="tg-btxf">A Gnome Artificer. He carries blacksmithing equipment from which is magic abilities comes from.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0pky">Sera</td>
+                                        <td class="tg-0pky">A Red Teifling Bard. She carries cookwear on her.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-btxf">Thorvin</td>
+                                        <td class="tg-btxf">A Dwarven Cleric. He wears black and red armor.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0pky">Welt</td>
+                                        <td class="tg-0pky">A sickly human magic user. He states that his power comes from his Diety, a Fey god named Oberon.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-btxf">Zephyr<br></td>
+                                        <td class="tg-btxf">A half elf monk, judging from his attire. He's on a quest to exact revenge on someone from his past. He's made it clear that any problem can be solved through punches.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0lax"></td>
+                                        <td class="tg-0lax"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-btxf">The Silver Dragon Guild</td>
+                                        <td class="tg-btxf">Hired the main party to find Keele. They were successful.<br>The party has not heard from the Silver Dragon Guild since their first day in Assadorth. Firius 1.<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0pky">The Golden Dawn Brigade</td>
+                                        <td class="tg-0pky">The local adventuring party of Assadorth. One of them owns a tower in Assadorth.<br><br>Members:<br>Elven Wizard - Lorelia Vildremante<br>Kobold Speedster - <br>Orc Barbarian -&nbsp;&nbsp;Krug<br>Bard<br><br>?<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-btxf"></td>
+                                        <td class="tg-btxf"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0pky">Bahamut</td>
+                                        <td class="tg-0pky">The Good Dragon God. King Bahamut to some.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-btxf">Tiamat</td>
+                                        <td class="tg-btxf">An Evil Dragon Goddess. Related to Bahamut. Known as King/Queen of the the Chromatic Dragons, as shared by the guy by the well.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0lax">Selune</td>
+                                        <td class="tg-0lax">A Goddess. She has a church in Assadorth.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-btxf">Goblin Cult(s)</td>
+                                        <td class="tg-btxf">There seems to be a cult of goblins forming, taking children from their homes to be the sacrificial lamb in a ritual. The goblins are up to something.<br><br>The need 4 Relics. Mayor Husk says to go collect them in their locations before the cults get to them.<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0pky">The Relics</td>
+                                        <td class="tg-0pky">There are 4 Relics that are needed by the Goblin Cults:<br>I in Volcano Mountains<br>II In Snowy Tundra<br>III In Feylands<br>IV Swamps <br><br><br></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-buh4"></td>
+                                        <td class="tg-buh4"></td>
+                                    </tr>
+                                    </tbody>
+                                    </table></div>
+                            </div>
+                            <section> <!--Destiny Points and Miscellaneous Meta Start-->
+                                <details>
+                                    <summary>Destiny Points and other Meta.</summary>
+                                <p><strong></strong>Destiny Points 
+                                    <br>Session 8
+                                    <br>0 Auri
+                                    <br>8 Dezi
+                                    <br>0 Welt
+                                    <br>0 Zephyr
+                                    <br>8 Sera
+                                    <br>0 Thorvin
+                                    <br> 2PT cost to affect any roll. 1PT to add to your roll.
+                                </p>
+                                <p><strong>Days of the Week</strong>
+                                    <br>(1) Onesday
+                                    <br>(2) Twosday
+                                    <br>(3) Threesday
+                                    <br>(4) Foursday
+                                    <br>(5) Fivesday
+                                    <br>(6) Sixday
+                                    <br>(7) Sevensday
+                                </p>
+                                <p><strong>Magic Aura and Color</strong>
+                                    <br>Conjuration - Faint Green Blue
+                                    <br>Evocation - Red
+                                    <br>Transmutation - Silver
+                                    <br>Necromancy - Greenish Black
+                                    <br>Ilusion - Pink Rainbow
+                                    <br>Abjuration - Bright Green
+                                    
+                                </p>
+                                <p>House Rules</p>
+                                </details>
+                            </section> <!--Destiny Points and Miscellaneous Meta End-->
+                            <section><!--Kill Count Start-->
+                                <details>
+                                    <summary>Kill Count</summary>
+                                <h2>Kill Count</h2>
+                                <p><strong>Session 2</strong></p>
+                                <p>Goblins</p>
+                                <p>4 Outside Door</p>
+                                <p>3 Incoming Patrol</p>
+                                <p>3 Brazier Room</p>
+                                <p>4 Shrine Room (14 Total)</p>
+                                <p>1 Hobgoblin</p>
+                                <p>1 Bugbear</p>
+                                <p>16 Kills</p>
+                                <p><strong>Session 4</strong></p>
+                                <p>1 Orc</p>
+                                <p>2 Wargs</p>
+                                <p>2 Goblins</p>
+                                <p>5 Kills</p>
+                                <p><strong>Session 5</strong></p>
+                                <p>3 Crocs</p>
+                                <p><strong>Session 6</strong></p>
+                                <p>6 Goblins</p>
+                                <p><strong>30 Total Campaign Kills</strong></p>
+                                </details>
+                            </section><!--Kill Count End-->
+                        </details>
+            
+                    </section><!--Glossary of Game Meta End-->
+                    <section>           <!--Store Table Start-->
+                        <details>
+                            <summary>
+                                DnD 5e Item Shop
+                            </summary>
+                            <table class="searchable sortable">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Cost</th>
+                                        <th>Weight (lbs)</th>
+                                        <th>Item Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Padded armor</td>
+                                        <td>5 gp</td>
+                                        <td>8</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Leather armor</td>
+                                        <td>10 gp</td>
+                                        <td>10</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Studded leather armor</td>
+                                        <td>45 gp</td>
+                                        <td>13</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Hide armor</td>
+                                        <td>10 gp</td>
+                                        <td>12</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Chain shirt</td>
+                                        <td>50 gp</td>
+                                        <td>20</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Scale mail</td>
+                                        <td>50 gp</td>
+                                        <td>45</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Breastplate</td>
+                                        <td>400 gp</td>
+                                        <td>20</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Half plate</td>
+                                        <td>750 gp</td>
+                                        <td>40</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Ring mail</td>
+                                        <td>30 gp</td>
+                                        <td>40</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Chain mail</td>
+                                        <td>75 gp</td>
+                                        <td>55</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Splint mail</td>
+                                        <td>200 gp</td>
+                                        <td>60</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Plate mail</td>
+                                        <td>1,500 gp</td>
+                                        <td>65</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Shield</td>
+                                        <td>10 gp</td>
+                                        <td>6</td>
+                                        <td>Armor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Abacus</td>
+                                        <td>2 gp</td>
+                                        <td>2</td>
+                                        <td>Tool</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Acid (vial)</td>
+                                        <td>25 gp</td>
+                                        <td>1</td>
+                                        <td>Throwable</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Alchemist’s fire (flask)</td>
+                                        <td>50 gp</td>
+                                        <td>1</td>
+                                        <td>Throwable</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Arrows (20)</td>
+                                        <td>1 gp</td>
+                                        <td>1</td>
+                                        <td>Ammo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Blowgun needles (50)</td>
+                                        <td>1 gp</td>
+                                        <td>1</td>
+                                        <td>Ammo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>Crossbow bolts (20)</td>
+                                        <td>1 gp</td>
+                                        <td>1 1/2</td>
+                                        <td>Ammo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>Sling bullets (20)</td>
+                                        <td>4 cp</td>
+                                        <td>1 1/2</td>
+                                        <td>Ammo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>21</td>
+                                        <td>Antitoxin (vial)</td>
+                                        <td>50 gp</td>
+                                        <td>0</td>
+                                        <td>Potion</td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>Crystal (Arcane focus)</td>
+                                        <td>10 gp</td>
+                                        <td>1</td>
+                                        <td>Magic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>Orb (Arcane focus)</td>
+                                        <td>20 gp</td>
+                                        <td>3</td>
+                                        <td>Magic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24</td>
+                                        <td>Rod (Arcane focus)</td>
+                                        <td>10 gp</td>
+                                        <td>2</td>
+                                        <td>Magic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25</td>
+                                        <td>Staff (Arcane focus)</td>
+                                        <td>5 gp</td>
+                                        <td>4</td>
+                                        <td>Magic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>26</td>
+                                        <td>Wand (Arcane focus)</td>
+                                        <td>10 gp</td>
+                                        <td>1</td>
+                                        <td>Magic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>27</td>
+                                        <td>Backpack</td>
+                                        <td>2 gp</td>
+                                        <td>5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>28</td>
+                                        <td>Ball bearings (bag o f 1,000)</td>
+                                        <td>1 gp</td>
+                                        <td>2</td>
+                                        <td>Throwable</td>
+                                    </tr>
+                                    <tr>
+                                        <td>29</td>
+                                        <td>Barrel</td>
+                                        <td>2 gp</td>
+                                        <td>70</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30</td>
+                                        <td>Basket</td>
+                                        <td>4 sp</td>
+                                        <td>2</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>31</td>
+                                        <td>Bedroll</td>
+                                        <td>1 gp</td>
+                                        <td>7</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>32</td>
+                                        <td>Bell</td>
+                                        <td>1 gp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>33</td>
+                                        <td>Blanket</td>
+                                        <td>5 sp</td>
+                                        <td>3</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>34</td>
+                                        <td>Block and tackle</td>
+                                        <td>1 gp</td>
+                                        <td>5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>35</td>
+                                        <td>Book</td>
+                                        <td>25 gp</td>
+                                        <td>5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>36</td>
+                                        <td>Bottle, glass</td>
+                                        <td>2 gp</td>
+                                        <td>2</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>37</td>
+                                        <td>Bucket</td>
+                                        <td>5 cp</td>
+                                        <td>2</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>38</td>
+                                        <td>Caltrops (bag of 20)</td>
+                                        <td>1 gp</td>
+                                        <td>2</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>39</td>
+                                        <td>Candle</td>
+                                        <td>1 cp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>40</td>
+                                        <td>Case, crossbow bolt</td>
+                                        <td>1 gp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>41</td>
+                                        <td>Case, map or scroll</td>
+                                        <td>1 gp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>42</td>
+                                        <td>Chain (10 feet)</td>
+                                        <td>5 gp</td>
+                                        <td>10</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>43</td>
+                                        <td>Chalk (1 piece)</td>
+                                        <td>1 cp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>44</td>
+                                        <td>Chest</td>
+                                        <td>5 gp</td>
+                                        <td>25</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>45</td>
+                                        <td>Climber's kit</td>
+                                        <td>25 gp</td>
+                                        <td>12</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>46</td>
+                                        <td>Clothes, common</td>
+                                        <td>5 sp</td>
+                                        <td>3</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>47</td>
+                                        <td>Clothes, costume</td>
+                                        <td>5 gp</td>
+                                        <td>4</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>48</td>
+                                        <td>Clothes, fine</td>
+                                        <td>15 gp</td>
+                                        <td>6</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>49</td>
+                                        <td>Clothes, traveler’s</td>
+                                        <td>2 gp</td>
+                                        <td>4</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>50</td>
+                                        <td>Component pouch</td>
+                                        <td>25 gp</td>
+                                        <td>2</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>51</td>
+                                        <td>Crowbar</td>
+                                        <td>2 gp</td>
+                                        <td>5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>52</td>
+                                        <td>Sprig of mistletoe (Druidic focus)</td>
+                                        <td>1 gp</td>
+                                        <td>0</td>
+                                        <td>Druidic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>53</td>
+                                        <td>Totem (Druidic focus)</td>
+                                        <td>1 gp</td>
+                                        <td>0</td>
+                                        <td>Druidic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>54</td>
+                                        <td>Wooden staff (Druidic focus)</td>
+                                        <td>5 gp</td>
+                                        <td>4</td>
+                                        <td>Druidic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>55</td>
+                                        <td>Yew wand (Druidic focus)</td>
+                                        <td>10 gp</td>
+                                        <td>1</td>
+                                        <td>Druidic</td>
+                                    </tr>
+                                    <tr>
+                                        <td>56</td>
+                                        <td>Fishing tackle</td>
+                                        <td>1 gp</td>
+                                        <td>4</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>57</td>
+                                        <td>Flask or tankard</td>
+                                        <td>2 cp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>58</td>
+                                        <td>Grappling hook</td>
+                                        <td>2 gp</td>
+                                        <td>4</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>59</td>
+                                        <td>Hammer</td>
+                                        <td>1 gp</td>
+                                        <td>3</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>60</td>
+                                        <td>Hammer, sledge</td>
+                                        <td>2 gp</td>
+                                        <td>10</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>61</td>
+                                        <td>Healer’s kit</td>
+                                        <td>5 gp</td>
+                                        <td>3</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>62</td>
+                                        <td>Amulet (Holy symbol)</td>
+                                        <td>5 gp</td>
+                                        <td>1</td>
+                                        <td>Holy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>63</td>
+                                        <td>Emblem (Holy symbol)</td>
+                                        <td>5 gp</td>
+                                        <td>0</td>
+                                        <td>Holy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>64</td>
+                                        <td>Reliquary (Holy symbol)</td>
+                                        <td>5 gp</td>
+                                        <td>2</td>
+                                        <td>Holy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>65</td>
+                                        <td>Holy water (flask)</td>
+                                        <td>25 gp</td>
+                                        <td>1</td>
+                                        <td>Holy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>66</td>
+                                        <td>Hourglass</td>
+                                        <td>25 gp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>67</td>
+                                        <td>Hunting trap</td>
+                                        <td>5 gp</td>
+                                        <td>25</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>68</td>
+                                        <td>Ink (1 ounce bottle)</td>
+                                        <td>10 gp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>69</td>
+                                        <td>Ink pen</td>
+                                        <td>2 cp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>70</td>
+                                        <td>Jug or pitcher</td>
+                                        <td>2 cp</td>
+                                        <td>4</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>71</td>
+                                        <td>Ladder (10-foot)</td>
+                                        <td>1 sp</td>
+                                        <td>25</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>72</td>
+                                        <td>Lamp</td>
+                                        <td>5 sp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>73</td>
+                                        <td>Lantern, bullseye</td>
+                                        <td>10 gp</td>
+                                        <td>2</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>74</td>
+                                        <td>Lantern, hooded</td>
+                                        <td>5 gp</td>
+                                        <td>2</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>75</td>
+                                        <td>Lock</td>
+                                        <td>10 gp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>76</td>
+                                        <td>Magnifying glass</td>
+                                        <td>100 gp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>77</td>
+                                        <td>Manacles</td>
+                                        <td>2 gp</td>
+                                        <td>6</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>78</td>
+                                        <td>Mess kit</td>
+                                        <td>2 sp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>79</td>
+                                        <td>Mirror, steel</td>
+                                        <td>5 gp</td>
+                                        <td>0.5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>80</td>
+                                        <td>Oil (flask)</td>
+                                        <td>1 sp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>81</td>
+                                        <td>Paper (one sheet)</td>
+                                        <td>2 sp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>82</td>
+                                        <td>Parchment (one sheet)</td>
+                                        <td>1 sp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>83</td>
+                                        <td>Perfume (vial)</td>
+                                        <td>5 gp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>84</td>
+                                        <td>Pick, miner’s</td>
+                                        <td>2 gp</td>
+                                        <td>10</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>85</td>
+                                        <td>Piton</td>
+                                        <td>5 cp</td>
+                                        <td>0.25</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>86</td>
+                                        <td>Poison, basic (vial)</td>
+                                        <td>100 gp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>Pole (10-foot)</td>
+                                        <td>5 cp</td>
+                                        <td>7</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>88</td>
+                                        <td>Pot, iron</td>
+                                        <td>2 gp</td>
+                                        <td>10</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>89</td>
+                                        <td>Potion o f healing</td>
+                                        <td>50 gp</td>
+                                        <td>0.5</td>
+                                        <td>Potion</td>
+                                    </tr>
+                                    <tr>
+                                        <td>90</td>
+                                        <td>Pouch</td>
+                                        <td>5 sp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>91</td>
+                                        <td>Quiver</td>
+                                        <td>1 gp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>92</td>
+                                        <td>Ram, portable</td>
+                                        <td>4 gp</td>
+                                        <td>35</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>93</td>
+                                        <td>Rations (1 day)</td>
+                                        <td>5 sp</td>
+                                        <td>2</td>
+                                        <td>Food</td>
+                                    </tr>
+                                    <tr>
+                                        <td>94</td>
+                                        <td>Robes</td>
+                                        <td>1 gp</td>
+                                        <td>4</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>95</td>
+                                        <td>Rope, hempen (50 feet)</td>
+                                        <td>1 gp</td>
+                                        <td>10</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>96</td>
+                                        <td>Rope, silk (50 feet)</td>
+                                        <td>10 gp</td>
+                                        <td>5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>97</td>
+                                        <td>Sack</td>
+                                        <td>1 cp</td>
+                                        <td>0.5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>98</td>
+                                        <td>Scale, merchant’s</td>
+                                        <td>5 gp</td>
+                                        <td>3</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>99</td>
+                                        <td>Sealing wax</td>
+                                        <td>5 sp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>100</td>
+                                        <td>Shovel</td>
+                                        <td>2 gp</td>
+                                        <td>5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>101</td>
+                                        <td>Signal whistle</td>
+                                        <td>5 cp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>102</td>
+                                        <td>Signet ring</td>
+                                        <td>5 gp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>103</td>
+                                        <td>Soap</td>
+                                        <td>2 cp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>104</td>
+                                        <td>Spellbook</td>
+                                        <td>50 gp</td>
+                                        <td>3</td>
+                                        <td>Magical</td>
+                                    </tr>
+                                    <tr>
+                                        <td>105</td>
+                                        <td>Spikes, iron (10)</td>
+                                        <td>1 gp</td>
+                                        <td>5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>106</td>
+                                        <td>Spyglass</td>
+                                        <td>1,000 gp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>107</td>
+                                        <td>Tent, two-person</td>
+                                        <td>2 gp</td>
+                                        <td>20</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>108</td>
+                                        <td>Tinderbox</td>
+                                        <td>5 sp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>109</td>
+                                        <td>Torch</td>
+                                        <td>1 cp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>110</td>
+                                        <td>Vial</td>
+                                        <td>1 gp</td>
+                                        <td>0</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>111</td>
+                                        <td>Waterskin (full)</td>
+                                        <td>2 sp</td>
+                                        <td>5</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>112</td>
+                                        <td>Whetstone</td>
+                                        <td>1 cp</td>
+                                        <td>1</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>113</td>
+                                        <td>Alchemist’s supplies</td>
+                                        <td>50 gp</td>
+                                        <td>8</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>114</td>
+                                        <td>Brewer’s supplies</td>
+                                        <td>20 gp</td>
+                                        <td>9</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>115</td>
+                                        <td>Calligrapher's supplies</td>
+                                        <td>10 gp</td>
+                                        <td>5</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>116</td>
+                                        <td>Carpenter’s tools</td>
+                                        <td>8 gp</td>
+                                        <td>6</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>117</td>
+                                        <td>Cartographer’s tools</td>
+                                        <td>15 gp</td>
+                                        <td>6</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>118</td>
+                                        <td>Cobbler’s tools</td>
+                                        <td>5 gp</td>
+                                        <td>5</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>119</td>
+                                        <td>Cook’s utensils</td>
+                                        <td>1  gp</td>
+                                        <td>8</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>120</td>
+                                        <td>Glassblower’s tools</td>
+                                        <td>30 gp</td>
+                                        <td>5</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>121</td>
+                                        <td>Jeweler’s tools</td>
+                                        <td>25 gp</td>
+                                        <td>2</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>122</td>
+                                        <td>Leatherworker’s tools</td>
+                                        <td>5 gp</td>
+                                        <td>5</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>123</td>
+                                        <td>Mason’s tools</td>
+                                        <td>10 gp</td>
+                                        <td>8</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>124</td>
+                                        <td>Painter’s supplies</td>
+                                        <td>10 gp</td>
+                                        <td>5</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>125</td>
+                                        <td>Potter’s tools</td>
+                                        <td>10 gp</td>
+                                        <td>3</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>126</td>
+                                        <td>Smith’s tools</td>
+                                        <td>20 gp</td>
+                                        <td>8</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>127</td>
+                                        <td>Tinker’s tools</td>
+                                        <td>50 gp</td>
+                                        <td>10</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>128</td>
+                                        <td>Weaver’s tools</td>
+                                        <td>1 gp</td>
+                                        <td>5</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>129</td>
+                                        <td>Woodcarver's tools</td>
+                                        <td>1 gp</td>
+                                        <td>5</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>130</td>
+                                        <td>Disguise kit</td>
+                                        <td>25 gp</td>
+                                        <td>3</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>131</td>
+                                        <td>Forgery kit</td>
+                                        <td>15 gp</td>
+                                        <td>5</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>132</td>
+                                        <td>Dice set (Gaming set)</td>
+                                        <td>1  sp</td>
+                                        <td>0</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>133</td>
+                                        <td>Dragonchess set (Gaming set)</td>
+                                        <td>1  gp</td>
+                                        <td>0.5</td>
+                                        <td>Gaming</td>
+                                    </tr>
+                                    <tr>
+                                        <td>134</td>
+                                        <td>Playing card set (Gaming set)</td>
+                                        <td>5 sp</td>
+                                        <td>0</td>
+                                        <td>Gaming</td>
+                                    </tr>
+                                    <tr>
+                                        <td>135</td>
+                                        <td>Three-Dragon Ante set (Gaming set)</td>
+                                        <td>1  gp</td>
+                                        <td>0</td>
+                                        <td>Gaming</td>
+                                    </tr>
+                                    <tr>
+                                        <td>136</td>
+                                        <td>Herbalism kit</td>
+                                        <td>5 gp</td>
+                                        <td>3</td>
+                                        <td>Equipment</td>
+                                    </tr>
+                                    <tr>
+                                        <td>137</td>
+                                        <td>Bagpipes (Musical instrument)</td>
+                                        <td>30 gp</td>
+                                        <td>6</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>138</td>
+                                        <td>Drum (Musical instrument)</td>
+                                        <td>6 gp</td>
+                                        <td>3</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>139</td>
+                                        <td>Dulcimer (Musical instrument)</td>
+                                        <td>25 gp</td>
+                                        <td>10</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>140</td>
+                                        <td>Flute (Musical instrument)</td>
+                                        <td>2 gp</td>
+                                        <td>1</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>141</td>
+                                        <td>Lute (Musical instrument)</td>
+                                        <td>35 gp</td>
+                                        <td>2</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>142</td>
+                                        <td>Lyre (Musical instrument)</td>
+                                        <td>30 gp</td>
+                                        <td>2</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>143</td>
+                                        <td>Horn (Musical instrument)</td>
+                                        <td>3 gp</td>
+                                        <td>2</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>144</td>
+                                        <td>Pan flute (Musical instrument)</td>
+                                        <td>12 gp</td>
+                                        <td>2</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>145</td>
+                                        <td>Shawm (Musical instrument)</td>
+                                        <td>2 gp</td>
+                                        <td>1</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>146</td>
+                                        <td>Viol (Musical instrument)</td>
+                                        <td>30 gp</td>
+                                        <td>1</td>
+                                        <td>Music</td>
+                                    </tr>
+                                    <tr>
+                                        <td>147</td>
+                                        <td>Navigator’s tools</td>
+                                        <td>25 gp</td>
+                                        <td>2</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>148</td>
+                                        <td>Poisoner’s kit</td>
+                                        <td>50 gp</td>
+                                        <td>2</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>149</td>
+                                        <td>Thieves’ tools</td>
+                                        <td>25 gp</td>
+                                        <td>1</td>
+                                        <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>150</td>
+                                        <td>Club</td>
+                                        <td>1  sp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>151</td>
+                                        <td>Dagger</td>
+                                        <td>2 gp</td>
+                                        <td>1</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>152</td>
+                                        <td>Greatclub</td>
+                                        <td>2 sp</td>
+                                        <td>10</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>153</td>
+                                        <td>Handaxe</td>
+                                        <td>5 gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>154</td>
+                                        <td>javelin</td>
+                                        <td>5 sp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>155</td>
+                                        <td>Light hammer</td>
+                                        <td>2 gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>156</td>
+                                        <td>Mace</td>
+                                        <td>5 gp</td>
+                                        <td>4</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>157</td>
+                                        <td>Quarterstaff</td>
+                                        <td>2 sp</td>
+                                        <td>4</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>158</td>
+                                        <td>Sickle</td>
+                                        <td>1  gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>159</td>
+                                        <td>Spear</td>
+                                        <td>1  gp</td>
+                                        <td>3</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>160</td>
+                                        <td>Unarmed strike</td>
+                                        <td>0 gp</td>
+                                        <td>0</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>161</td>
+                                        <td>Crossbow, light</td>
+                                        <td>25 gp</td>
+                                        <td>5</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>162</td>
+                                        <td>Dart</td>
+                                        <td>5 cp</td>
+                                        <td>0.25</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>163</td>
+                                        <td>Shortbow</td>
+                                        <td>25gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>164</td>
+                                        <td>Sling</td>
+                                        <td>1  sp</td>
+                                        <td>0</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>165</td>
+                                        <td>Battleaxe</td>
+                                        <td>10 gp</td>
+                                        <td>4</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>166</td>
+                                        <td>Flail</td>
+                                        <td>10 gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>167</td>
+                                        <td>Glaive</td>
+                                        <td>20 gp</td>
+                                        <td>6</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>168</td>
+                                        <td>Greataxe</td>
+                                        <td>30 gp</td>
+                                        <td>7</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>169</td>
+                                        <td>Greatsword</td>
+                                        <td>50 gp</td>
+                                        <td>6</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>170</td>
+                                        <td>Halberd</td>
+                                        <td>20 gp</td>
+                                        <td>6</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>171</td>
+                                        <td>Lance</td>
+                                        <td>10 gp</td>
+                                        <td>6</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>172</td>
+                                        <td>Longsword</td>
+                                        <td>15 gp</td>
+                                        <td>3</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>173</td>
+                                        <td>Maul</td>
+                                        <td>10 gp</td>
+                                        <td>10</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>174</td>
+                                        <td>Morningstar</td>
+                                        <td>15 gp</td>
+                                        <td>4</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>175</td>
+                                        <td>Pike</td>
+                                        <td>5 gp</td>
+                                        <td>18</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>176</td>
+                                        <td>Rapier</td>
+                                        <td>25 gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>177</td>
+                                        <td>Scimitar</td>
+                                        <td>25 gp</td>
+                                        <td>3</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>178</td>
+                                        <td>Shortsword</td>
+                                        <td>10 gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>179</td>
+                                        <td>Trident</td>
+                                        <td>5 gp</td>
+                                        <td>4</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>180</td>
+                                        <td>War pick</td>
+                                        <td>5 gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>181</td>
+                                        <td>Warhammer</td>
+                                        <td>15 gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>182</td>
+                                        <td>Whip</td>
+                                        <td>2 gp</td>
+                                        <td>3</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>183</td>
+                                        <td>Blowgun</td>
+                                        <td>10 gp</td>
+                                        <td>1</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>184</td>
+                                        <td>Crossbow, hand</td>
+                                        <td>75 gp</td>
+                                        <td>3</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>185</td>
+                                        <td>Crossbow, heavy</td>
+                                        <td>50 gp</td>
+                                        <td>18</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>186</td>
+                                        <td>Longbow</td>
+                                        <td>50 gp</td>
+                                        <td>2</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>187</td>
+                                        <td>Net</td>
+                                        <td>1  gp</td>
+                                        <td>3</td>
+                                        <td>Weapon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Sum</b>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </details>
+                       
+                    </section>          <!--Store Table End-->
+            </div>
+        </div>
+    </div>
+    <div>  
+    </div>
+</section>
+</body>
+<div><!--footer start-->
+    <footer>
+    <p>HTML written by Mike Go. 2024.</p>
+</footer>
+</div><!--footer end-->
+
+</html>
