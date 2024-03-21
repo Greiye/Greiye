@@ -23,7 +23,7 @@ Student in Software Engineering, Java Track @ <a href="https://www.wgu.edu/onlin
 As of January 2024, I am working to get my B.S. in Software Engineering. 🌱
 
 My interests with coding is game development, Automotive CAN BUS development, and microcontroller development.
-I have limited experience with robot trading. Interested in 3D Printing and Robotics. 
+I have limited experience with robot trading. Interested in 3D Printing, Embedded Engineering and Robotics. 
 
 #### Learning / Previously Used
 
