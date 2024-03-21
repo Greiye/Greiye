@@ -1,4 +1,4 @@
-b<!-- !DOCTYPE HTML -->
+<!-- !DOCTYPE HTML -->
 
 <header>
 </header>
