@@ -41,34 +41,29 @@
 </p>
 
 <p>Notable Achievements, Chronological</p>
-<ul>
-  <li>Opened working and dysfunctional toys and machines to see how it works</li>
-  <li>Edited HTML on myspace when it was popular</li>
-  <li>played around with a Raspberry Pi Controller, changed LED lights.</li>
-  <li>played with Unity/Godot game engines and Blender for 3D modeling</li>
-  <li>Made a disfunctional DnD tool using GDevelop (C++, Javascript No Coding) on Itch.io , connecting it to Heroku and Node.js for multiplayer</li>
-  <li>Passed an entrance test for GA (General Assembly) Bootcamp, which only asked for High School level HTML/CSS/JAVA knowledge. </li>
-  <li>Certified for Google IT Support as of Sept 2023.</li>
-  <li>Enrolled in WGU College for Software Engineering in Jan 2024.</li>
-  <li>Passed all my classes for Term 1 by April 30. (~4 Months from start date 2024-01JAN-03</li>
-</ul>
+  <ul>
+    <li>2006-XXXXX Disassembled Functioning/Dysfunctioning toys and machines to see how it works</li>
+    <li>2008-XXXXX Copy/pasted HTML/CSS Scripts on myspace when it was popular</li>
+    <li>2013-XXXXX Played around with a Raspberry Pi Controller, changed LED lights.</li>
+    <li>2016-XXXXX played with Unity/Godot game engines and Blender for 3D modeling</li>
+    <li>2018-XXXXX Used GDevelop (C++, Javascript No Coding) on Itch.io , connecting it to Heroku and Node.js for multiplayer DnD Tool (Dysfunct)</li>
+    <li>2023-XXXXX Passed an entrance test for GA (General Assembly) Bootcamp, which only asked for High School level HTML/CSS/JAVA knowledge.</li>
+    <li>2013-XXXXX Certified for Google IT Support as of Sept 2023.</li>
+    <li>2024-XXXXX Enrolled in WGU College for Software Engineering in Jan 2024.</li>
+    <li>2024-01JAN Passed all my classes for Term 1 by April 30. (~4 Months from start date 2024-01JAN-03</li>
+    <li>2024-XXXXX Plan: Obtain Bachelors in Software Engineering by 2025</li>
+  </ul>
 
-
-  </body>
-
-
+</body>
 
 
 <!--
 **Greiye/Greiye** is a repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
-
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-
 -->
