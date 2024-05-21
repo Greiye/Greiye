@@ -50,6 +50,7 @@
   <li>Passed an entrance test for GA (General Assembly) Bootcamp, which only asked for High School level HTML/CSS/JAVA knowledge. </li>
   <li>Certified for Google IT Support as of Sept 2023.</li>
   <li>Enrolled in WGU College for Software Engineering in Jan 2024.</li>
+  <li>Passed all my classes for Term 1 by April 30. (~4 Months from start date 2024-01JAN-03</li>
 </ul>
 
 
