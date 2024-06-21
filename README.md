@@ -40,19 +40,20 @@
 📫 Reach me via email.
 </p>
 
-<p>Notable Achievements, Chronological</p>
-  <ul>
-    <li>2006-XXXXX Disassembled Functioning/Dysfunctioning toys and machines to see how it works</li>
-    <li>2008-XXXXX Copy/pasted HTML/CSS Scripts on myspace when it was popular</li>
-    <li>2013-XXXXX Played around with a Raspberry Pi Controller, changed LED lights.</li>
-    <li>2016-XXXXX played with Unity/Godot game engines and Blender for 3D modeling</li>
-    <li>2018-XXXXX Used GDevelop (C++, Javascript No Coding) on Itch.io , connecting it to Heroku and Node.js for multiplayer DnD Tool (Dysfunct)</li>
-    <li>2023-XXXXX Passed an entrance test for GA (General Assembly) Bootcamp, which only asked for High School level HTML/CSS/JAVA knowledge.</li>
-    <li>2013-XXXXX Certified for Google IT Support as of Sept 2023.</li>
-    <li>2024-XXXXX Enrolled in WGU College for Software Engineering in Jan 2024.</li>
-    <li>2024-01JAN Passed all my classes for Term 1 by April 30. (~4 Months from start date 2024-01JAN-03</li>
-    <li>2024-XXXXX Plan: Obtain Bachelors in Software Engineering by 2025</li>
-  </ul>
+| Year       | Notable Achievements                                                                                        |
+|------------|-------------------------------------------------------------------------------------------------------------|
+| 2006-XXXXX | Disassembled Functioning/Dysfunctioning toys and machines to see how it works                               |
+| 2008-XXXXX | Copy/pasted HTML/CSS Scripts on MySpace when it was popular                                                 |
+| 2013-XXXXX | Played around with a Raspberry Pi Controller, changed LED lights                                            |
+| 2016-XXXXX | Played with Unity/Godot game engines and Blender for 3D modeling                                            |
+| 2018-XXXXX | Used GDevelop (C++, Javascript No Coding) on Itch.io, connecting it to Heroku and Node.js for multiplayer DnD Tool (Dysfunct) |
+| 2023-XXXXX | Passed an entrance test for GA (General Assembly) Bootcamp, which only asked for High School level HTML/CSS/Java knowledge |
+| 2013-XXXXX | Certified for Google IT Support as of Sept 2023                                                             |
+| 2024-XXXXX | Enrolled in WGU College for Software Engineering in Jan 2024                                                |
+| 2024-01JAN | Passed all my classes for Term 1 by April 30 (~4 Months from start date 2024-01JAN-03)                      |
+| 2024-01JAN | Starting Term 2/8 of WGU B.S.S.E. Bachelors Software Engineering Java Track                   |
+| 2025-XXXXX | Plan: Obtain Bachelor's in Software Engineering by 2025                                                     |
+
 
 </body>
 
