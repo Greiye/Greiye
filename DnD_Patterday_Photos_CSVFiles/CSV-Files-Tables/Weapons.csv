@@ -1,0 +1,38 @@
+Club,1  sp,2,Weapon
+Dagger,2 gp,1,Weapon
+Greatclub,2 sp,10,Weapon
+Handaxe,5 gp,2,Weapon
+javelin,5 sp,2,Weapon
+Light hammer,2 gp,2,Weapon
+Mace,5 gp,4,Weapon
+Quarterstaff,2 sp,4,Weapon
+Sickle,1  gp,2,Weapon
+Spear,1  gp,3,Weapon
+Unarmed strike,0 gp,0,Weapon
+"Crossbow, light ",25 gp,5,Weapon
+Dart,5 cp,0.25,Weapon
+Shortbow,25gp,2,Weapon
+Sling,1  sp,0,Weapon
+Battleaxe,10 gp,4,Weapon
+Flail,10 gp,2,Weapon
+Glaive,20 gp,6,Weapon
+Greataxe,30 gp,7,Weapon
+Greatsword,50 gp,6,Weapon
+Halberd,20 gp,6,Weapon
+Lance,10 gp,6,Weapon
+Longsword,15 gp,3,Weapon
+Maul,10 gp,10,Weapon
+Morningstar,15 gp,4,Weapon
+Pike,5 gp,18,Weapon
+Rapier,25 gp,2,Weapon
+Scimitar,25 gp,3,Weapon
+Shortsword,10 gp,2,Weapon
+Trident,5 gp,4,Weapon
+War pick,5 gp,2,Weapon
+Warhammer,15 gp,2,Weapon
+Whip,2 gp,3,Weapon
+Blowgun,10 gp,1,Weapon
+"Crossbow, hand ",75 gp,3,Weapon
+"Crossbow, heavy ",50 gp,18,Weapon
+Longbow,50 gp,2,Weapon
+Net,1  gp,3,Weapon

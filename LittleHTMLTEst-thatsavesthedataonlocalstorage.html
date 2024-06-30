@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Stats Tracker</title>
+</head>
+<body>
+
+<h1>Game Health Tracker</h1>
+
+<div>
+    <p>Health: <span id="health"></span></p>
+    <button onclick="decreaseHealth()">Decrease Health</button>
+</div>
+
+<div>
+    <p>Score: <span id="score"></span></p>
+    <button onclick="increaseScore()">Increase Score</button>
+</div>
+
+<script>
+// Function to initialize stats from localStorage
+function initializeStats() {
+    // Check if game data exists in localStorage
+    if (localStorage.getItem("gameStats")) {
+        // Parse the game data from JSON
+        const gameData = JSON.parse(localStorage.getItem("gameStats"));
+        // Retrieve and display health and score
+        health = gameData.health;
+        score = gameData.score;
+        document.getElementById("health").innerText = health;
+        document.getElementById("score").innerText = score;
+    } else {
+        // Set default health and score if not found
+        health = 100;
+        score = 0;
+        document.getElementById("health").innerText = health;
+        document.getElementById("score").innerText = score;
+        // Save default stats to localStorage
+        saveStats();
+    }
+}
+
+// Function to save stats to localStorage
+function saveStats() {
+    // Construct game data object
+    const gameData = {
+        health: health,
+        score: score
+    };
+    // Convert game data to JSON and save to localStorage
+    localStorage.setItem("gameStats", JSON.stringify(gameData));
+}
+
+// Function to decrease health
+function decreaseHealth() {
+    // Check if health is greater than 0
+    if (health > 0) {
+        health -= 10; // Decrease health by 10
+        // Update the health display
+        document.getElementById("health").innerText = health;
+        // Save stats to localStorage
+        saveStats();
+    }
+}
+
+// Function to increase score
+function increaseScore() {
+    score += 10; // Increase score by 10
+    // Update the score display
+    document.getElementById("score").innerText = score;
+    // Save stats to localStorage
+    saveStats();
+}
+
+// Call initializeStats() when the page loads
+initializeStats();
+</script>
+
+</body>
+</html>

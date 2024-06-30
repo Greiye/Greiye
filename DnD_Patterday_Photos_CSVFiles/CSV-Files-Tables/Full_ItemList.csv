@@ -1,0 +1,225 @@
+Name,Cost,Weight (lbs),Item Type
+Padded armor,5 gp,8,Armor
+Leather armor,10 gp,10,Armor
+Studded leather armor,45 gp,13,Armor
+Hide armor,10 gp,12,Armor
+Chain shirt,50 gp,20,Armor
+Scale mail,50 gp,45,Armor
+Breastplate,400 gp,20,Armor
+Half plate,750 gp,40,Armor
+Ring mail,30 gp,40,Armor
+Chain mail,75 gp,55,Armor
+Splint mail,200 gp,60,Armor
+Plate mail,"1,500 gp ",65,Armor
+Shield,10 gp,6,Armor
+Abacus,2 gp,2,Tool
+Acid (vial),25 gp,1,Throwable
+Alchemist’s fire (flask),50 gp,1,Throwable
+Arrows (20),1 gp,1,Ammo
+Blowgun needles (50),1 gp,1,Ammo
+Crossbow bolts (20),1 gp,1 1/2,Ammo
+Sling bullets (20),4 cp,1 1/2,Ammo
+Antitoxin (vial),50 gp,0,Potion
+Crystal (Arcane focus),10 gp,1,Magic
+Orb (Arcane focus),20 gp,3,Magic
+Rod (Arcane focus),10 gp,2,Magic
+Staff (Arcane focus),5 gp,4,Magic
+Wand (Arcane focus),10 gp,1,Magic
+Backpack,2 gp,5,Equipment
+"Ball bearings (bag o f 1,000) ",1 gp,2,Throwable
+Barrel,2 gp,70,Equipment
+Basket,4 sp,2,Equipment
+Bedroll,1 gp,7,Equipment
+Bell,1 gp,0,Equipment
+Blanket,5 sp,3,Equipment
+Block and tackle,1 gp,5,Equipment
+Book,25 gp,5,Equipment
+"Bottle, glass ",2 gp,2,Equipment
+Bucket,5 cp,2,Equipment
+Caltrops (bag of 20),1 gp,2,Equipment
+Candle,1 cp,0,Equipment
+"Case, crossbow bolt ",1 gp,1,Equipment
+"Case, map or scroll ",1 gp,1,Equipment
+Chain (10 feet),5 gp,10,Equipment
+Chalk (1 piece),1 cp,0,Equipment
+Chest,5 gp,25,Equipment
+Climber's kit,25 gp,12,Equipment
+"Clothes, common ",5 sp,3,Equipment
+"Clothes, costume ",5 gp,4,Equipment
+"Clothes, fine ",15 gp,6,Equipment
+"Clothes, traveler’s ",2 gp,4,Equipment
+Component pouch,25 gp,2,Equipment
+Crowbar,2 gp,5,Equipment
+Sprig of mistletoe (Druidic focus),1 gp,0,Druidic
+Totem (Druidic focus),1 gp,0,Druidic
+Wooden staff (Druidic focus),5 gp,4,Druidic
+Yew wand (Druidic focus),10 gp,1,Druidic
+Fishing tackle,1 gp,4,Equipment
+Flask or tankard,2 cp,1,Equipment
+Grappling hook,2 gp,4,Equipment
+Hammer,1 gp,3,Equipment
+"Hammer, sledge ",2 gp,10,Equipment
+Healer’s kit,5 gp,3,Equipment
+Amulet (Holy symbol),5 gp,1,Holy
+Emblem (Holy symbol),5 gp,0,Holy
+Reliquary (Holy symbol),5 gp,2,Holy
+Holy water (flask),25 gp,1,Holy
+Hourglass,25 gp,1,Equipment
+Hunting trap,5 gp,25,Equipment
+Ink (1 ounce bottle),10 gp,0,Equipment
+Ink pen,2 cp,0,Equipment
+Jug or pitcher,2 cp,4,Equipment
+Ladder (10-foot),1 sp,25,Equipment
+Lamp,5 sp,1,Equipment
+"Lantern, bullseye ",10 gp,2,Equipment
+"Lantern, hooded ",5 gp,2,Equipment
+Lock,10 gp,1,Equipment
+Magnifying glass,100 gp,0,Equipment
+Manacles,2 gp,6,Equipment
+Mess kit,2 sp,1,Equipment
+"Mirror, steel ",5 gp,0.5,Equipment
+Oil (flask),1 sp,1,Equipment
+Paper (one sheet),2 sp,0,Equipment
+Parchment (one sheet),1 sp,0,Equipment
+Perfume (vial),5 gp,0,Equipment
+"Pick, miner’s ",2 gp,10,Equipment
+Piton,5 cp,0.25,Equipment
+"Poison, basic (vial) ",100 gp,0,Equipment
+Pole (10-foot),5 cp,7,Equipment
+"Pot, iron ",2 gp,10,Equipment
+Potion o f healing,50 gp,0.5,Potion
+Pouch,5 sp,1,Equipment
+Quiver,1 gp,1,Equipment
+"Ram, portable ",4 gp,35,Equipment
+Rations (1 day),5 sp,2,Food
+Robes,1 gp,4,Equipment
+"Rope, hempen (50 feet) ",1 gp,10,Equipment
+"Rope, silk (50 feet) ",10 gp,5,Equipment
+Sack,1 cp,0.5,Equipment
+"Scale, merchant’s ",5 gp,3,Equipment
+Sealing wax,5 sp,0,Equipment
+Shovel,2 gp,5,Equipment
+Signal whistle,5 cp,0,Equipment
+Signet ring,5 gp,0,Equipment
+Soap,2 cp,0,Equipment
+Spellbook,50 gp,3,Magical
+"Spikes, iron (10) ",1 gp,5,Equipment
+Spyglass,"1,000 gp ",1,Equipment
+"Tent, two-person ",2 gp,20,Equipment
+Tinderbox,5 sp,1,Equipment
+Torch,1 cp,1,Equipment
+Vial,1 gp,0,Equipment
+Waterskin (full),2 sp,5,Equipment
+Whetstone,1 cp,1,Equipment
+Alchemist’s supplies,50 gp,8,Tools
+Brewer’s supplies,20 gp,9,Tools
+Calligrapher's supplies,10 gp,5,Tools
+Carpenter’s tools,8 gp,6,Tools
+Cartographer’s tools,15 gp,6,Tools
+Cobbler’s tools,5 gp,5,Tools
+Cook’s utensils,1  gp,8,Tools
+Glassblower’s tools,30 gp,5,Tools
+Jeweler’s tools,25 gp,2,Tools
+Leatherworker’s tools,5 gp,5,Tools
+Mason’s tools,10 gp,8,Tools
+Painter’s supplies,10 gp,5,Tools
+Potter’s tools,10 gp,3,Tools
+Smith’s tools,20 gp,8,Tools
+Tinker’s tools,50 gp,10,Tools
+Weaver’s tools,1 gp,5,Tools
+Woodcarver's tools,1 gp,5,Tools
+Disguise kit,25 gp,3,Tools
+Forgery kit,15 gp,5,Tools
+Dice set (Gaming set),1  sp,0,Tools
+Dragonchess set (Gaming set),1  gp,0.5,Gaming
+Playing card set (Gaming set),5 sp,0,Gaming
+Three-Dragon Ante set (Gaming set),1  gp,0,Gaming
+Herbalism kit,5 gp,3,Equipment
+Bagpipes (Musical instrument),30 gp,6,Music
+Drum (Musical instrument),6 gp,3,Music
+Dulcimer (Musical instrument),25 gp,10,Music
+Flute (Musical instrument),2 gp,1,Music
+Lute (Musical instrument),35 gp,2,Music
+Lyre (Musical instrument),30 gp,2,Music
+Horn (Musical instrument),3 gp,2,Music
+Pan flute (Musical instrument),12 gp,2,Music
+Shawm (Musical instrument),2 gp,1,Music
+Viol (Musical instrument),30 gp,1,Music
+Navigator’s tools,25 gp,2,Tools
+Poisoner’s kit,50 gp,2,Tools
+Thieves’ tools,25 gp,1,Tools
+Club,1  sp,2,Weapon
+Dagger,2 gp,1,Weapon
+Greatclub,2 sp,10,Weapon
+Handaxe,5 gp,2,Weapon
+javelin,5 sp,2,Weapon
+Light hammer,2 gp,2,Weapon
+Mace,5 gp,4,Weapon
+Quarterstaff,2 sp,4,Weapon
+Sickle,1  gp,2,Weapon
+Spear,1  gp,3,Weapon
+Unarmed strike,0 gp,0,Weapon
+"Crossbow, light ",25 gp,5,Weapon
+Dart,5 cp,0.25,Weapon
+Shortbow,25gp,2,Weapon
+Sling,1  sp,0,Weapon
+Battleaxe,10 gp,4,Weapon
+Flail,10 gp,2,Weapon
+Glaive,20 gp,6,Weapon
+Greataxe,30 gp,7,Weapon
+Greatsword,50 gp,6,Weapon
+Halberd,20 gp,6,Weapon
+Lance,10 gp,6,Weapon
+Longsword,15 gp,3,Weapon
+Maul,10 gp,10,Weapon
+Morningstar,15 gp,4,Weapon
+Pike,5 gp,18,Weapon
+Rapier,25 gp,2,Weapon
+Scimitar,25 gp,3,Weapon
+Shortsword,10 gp,2,Weapon
+Trident,5 gp,4,Weapon
+War pick,5 gp,2,Weapon
+Warhammer,15 gp,2,Weapon
+Whip,2 gp,3,Weapon
+Blowgun,10 gp,1,Weapon
+"Crossbow, hand ",75 gp,3,Weapon
+"Crossbow, heavy ",50 gp,18,Weapon
+Longbow,50 gp,2,Weapon
+Net,1  gp,3,Weapon
+,,,
+Mounts and Other Animals,,,
+Animal,Cost,Speed,Capacity
+Camel,50 gp,50 ft.,480 lb.
+Donkey or mule,8 gp,40 ft.,420 lb.
+Elephant,200 gp,40 ft.,"1,320 lb."
+"Horse, draft",50 gp,40 ft.,540 lb.
+"Horse, riding",75 gp,60 ft.,480 lb.
+Mastiff,25 gp,40 ft.,195 lb.
+Pony,30 gp,40 ft.,225 lb.
+Warhorse,400 gp,60 ft.,540 lb.
+,,,
+"Tack, Harness, and Drawn Vehicles",,,
+Item,Cost,Weight,
+Barding,�4,�2,
+Bit and bridle,2 gp,1 lb.,
+Carriage,100 gp,600 lb.,
+Cart,15 gp,200 lb.,
+Chariot,250 gp,100 lb.,
+Animal Feed (per day),5 cp,10 lb.,
+"Saddle, Exotic",60 gp,40 lb.,
+"Saddle, Military",20 gp,30 lb.,
+"Saddle, Pack",5 gp,15 lb.,
+"Saddle, Riding",10 gp,25 lb.,
+Saddlebags,4 gp,8 lb.,
+Sled,20 gp,300 lb.,
+Stabling (per day),5 sp,�,
+Wagon,35 gp,400 lb.,
+,,,
+Waterborne Vehicles,,,
+Vehicle,Cost,Speed,
+Galley,"30,000 gp",4 mph,
+Keelboat,"3,000 gp",1 mph,
+Longship,"10,000 gp",3 mph,
+Rowboat,50 gp,1� mph,
+Sailing ship,"10,000 gp",2 mph,
+Warship,"25,000 gp",2� mph,
