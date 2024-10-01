@@ -3,19 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7-Slide Remote with Vertical Wrapper</title>
+    <title>Michael Resume</title>
     <link rel="stylesheet" href="styles.css">
-<!-- Notes
-     
-I want standard text size responsive to screen size. mobile, tablet, and desktop.
-
-I want responsive interactive buttons features as well. Make the interactive button color DEB98F. Make the buttons little dots on the UI bottom (for the horizontal slides) and left hand side (for the vertical slides). 
-    
-    
-    
-    
-    
--->
+    <!-- Notes    
+    -->
 </head>
 <body>
     <div class="slides-wrapper">
@@ -82,28 +73,28 @@ I want responsive interactive buttons features as well. Make the interactive but
 
     <div class="remote-container">
         <div class="side-buttons">
-            <button class="arrow-btn" id="up-btn">↑</button>
-            <button class="arrow-btn" id="down-btn">↓</button>
+            <button id="up-btn">↑</button>
+            <button id="down-btn">↓</button>
         </div>
-        <button class="interact-btn" id="interact-btn">Interact</button>
-        <button class="arrow-btn" id="left-btn">←</button>
-        <button class="arrow-btn" id="right-btn">→</button>
+        <button id="interact-btn">Interact</button>
+        <button id="left-btn">←</button>
+        <button id="right-btn">→</button>
     </div>
 
     <div class="nav-dots">
         <div class="nav-dot active"></div>
         <div class="nav-dot"></div>
         <div class="nav-dot"></div>
-        <!-- Add a dot for each horizontal slide -->
-      </div>
-      
-      <div class="vertical-nav-dots">
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+    </div>
+
+    <div class="vertical-nav-dots">
         <div class="vertical-nav-dot active"></div>
         <div class="vertical-nav-dot"></div>
-        <!-- Add a dot for each vertical slide within slide 2 -->
-      </div>
-      
-      <button class="interact-btn">i</button>
+    </div>
 
     <script src="script.js"></script>
 </body>

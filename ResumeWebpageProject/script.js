@@ -1,17 +1,15 @@
-let currentPage = 0; // Start on the first slide (index 0)
-let currentVerticalPage = 0; // Track vertical slides within slide 2
+let currentPage = 0;
+let currentVerticalPage = 0;
 const slidesWrapper = document.querySelector('.slides-wrapper');
 const verticalWrapper = document.querySelector('.vertical-wrapper');
-const totalPages = 7; // We have 7 main slides in total
+const totalPages = 7;
 
-// Function to update the horizontal slide view
 function updateSlideView() {
-    slidesWrapper.style.transform = `translateX(-${currentPage * 100}vw)`;
+    slidesWrapper.style.transform = `translateX(-${currentPage * (100 / totalPages)}%)`;
 }
 
-// Function to update the vertical slide view for slide 2
 function updateVerticalSlideView() {
-    if (currentPage === 1) { // Slide 2 (index 1) has a vertical wrapper
+    if (currentPage === 1) {
         verticalWrapper.style.transform = `translateY(${50 - (currentVerticalPage * 100)}vh)`;
     }
 }
@@ -30,7 +28,6 @@ function updateActiveDot() {
     }
 }
 
-// Button listeners for horizontal navigation
 document.getElementById('left-btn').addEventListener('click', function() {
     if (currentPage > 0) {
         currentPage--;
@@ -43,13 +40,12 @@ document.getElementById('right-btn').addEventListener('click', function() {
     if (currentPage < totalPages - 1) {
         currentPage++;
         updateSlideView();
-        currentVerticalPage = 0; // Reset vertical page if moving horizontally
-        updateVerticalSlideView(); // Ensure Slide 2A is shown when revisiting
+        currentVerticalPage = 0;
+        updateVerticalSlideView();
         updateActiveDot();
     }
 });
 
-// Button listeners for vertical navigation (for Slide 2)
 document.getElementById('up-btn').addEventListener('click', function() {
     if (currentPage === 1 && currentVerticalPage > 0) {
         currentVerticalPage--;
@@ -59,61 +55,58 @@ document.getElementById('up-btn').addEventListener('click', function() {
 });
 
 document.getElementById('down-btn').addEventListener('click', function() {
-    if (currentPage === 1 && currentVerticalPage < 1) { // 2 sub-slides: 2A (index 0) and 2B (index 1)
+    if (currentPage === 1 && currentVerticalPage < 1) {
         currentVerticalPage++;
         updateVerticalSlideView();
         updateActiveDot();
     }
 });
 
-// Interact button (optional functionality)
 document.getElementById('interact-btn').addEventListener('click', function() {
     alert(`Interacting with Slide ${currentPage + 1}`);
 });
 
-// Keypress event listeners for WASD and arrow keys
 document.addEventListener('keydown', function(event) {
     switch(event.key) {
-        case 'ArrowLeft': // Left arrow key
-        case 'a': // 'A' key for left
+        case 'ArrowLeft':
+        case 'a':
             if (currentPage > 0) {
                 currentPage--;
                 updateSlideView();
             }
             break;
-        case 'ArrowRight': // Right arrow key
-        case 'd': // 'D' key for right
+        case 'ArrowRight':
+        case 'd':
             if (currentPage < totalPages - 1) {
                 currentPage++;
                 updateSlideView();
-                currentVerticalPage = 0; // Reset vertical page if moving horizontally
+                currentVerticalPage = 0;
                 updateVerticalSlideView();
             }
             break;
-        case 'ArrowUp': // Up arrow key
-        case 'w': // 'W' key for up
+        case 'ArrowUp':
+        case 'w':
             if (currentPage === 1 && currentVerticalPage > 0) {
                 currentVerticalPage--;
                 updateVerticalSlideView();
             }
             break;
-        case 'ArrowDown': // Down arrow key
-        case 's': // 'S' key for down
+        case 'ArrowDown':
+        case 's':
             if (currentPage === 1 && currentVerticalPage < 1) {
                 currentVerticalPage++;
                 updateVerticalSlideView();
             }
             break;
-        case 'Enter': // Enter key for interact
+        case 'Enter':
             alert(`Interacting with Slide ${currentPage + 1}`);
             break;
     }
     updateActiveDot();
 });
 
-// Touch screen functionality
 let startX, startY, distX, distY;
-const threshold = 50; // minimum distance traveled to be considered swipe
+const threshold = 50;
 
 document.addEventListener('touchstart', function(e) {
     const touchObj = e.changedTouches[0];
@@ -123,7 +116,7 @@ document.addEventListener('touchstart', function(e) {
 }, false);
 
 document.addEventListener('touchmove', function(e) {
-    e.preventDefault(); // Prevent scrolling when inside DIV
+    e.preventDefault();
 }, false);
 
 document.addEventListener('touchend', function(e) {
@@ -132,37 +125,29 @@ document.addEventListener('touchend', function(e) {
     distY = touchObj.pageY - startY;
 
     if (Math.abs(distX) >= threshold) {
-        if (distX > 0) {
-            // Swiped right
-            if (currentPage > 0) {
-                currentPage--;
-                updateSlideView();
-            }
-        } else {
-            // Swiped left
-            if (currentPage < totalPages - 1) {
-                currentPage++;
-                updateSlideView();
-                currentVerticalPage = 0; // Reset vertical page if moving horizontally
-                updateVerticalSlideView();
-            }
+        if (distX > 0 && currentPage > 0) {
+            currentPage--;
+            updateSlideView();
+        } else if (distX < 0 && currentPage < totalPages - 1) {
+            currentPage++;
+            updateSlideView();
+            currentVerticalPage = 0;
+            updateVerticalSlideView();
         }
     } else if (Math.abs(distY) >= threshold && currentPage === 1) {
-        // Only handle vertical swipes on slide 2
-        if (distY > 0) {
-            // Swiped down
-            if (currentVerticalPage > 0) {
-                currentVerticalPage--;
-                updateVerticalSlideView();
-            }
-        } else {
-            // Swiped up
-            if (currentVerticalPage < 1) {
-                currentVerticalPage++;
-                updateVerticalSlideView();
-            }
+        if (distY > 0 && currentVerticalPage > 0) {
+            currentVerticalPage--;
+            updateVerticalSlideView();
+        } else if (distY < 0 && currentVerticalPage < 1) {
+            currentVerticalPage++;
+            updateVerticalSlideView();
         }
     }
     updateActiveDot();
     e.preventDefault();
 }, false);
+
+// Initialize the view
+updateSlideView();
+updateVerticalSlideView();
+updateActiveDot();
