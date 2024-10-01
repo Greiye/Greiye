@@ -6,6 +6,9 @@ body {
     font-size: 16px;
 }
 
+p {
+    text-align: center;
+}
 .slides-wrapper {
     display: flex;
     width: 700%;
