@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Workout Tracker</h1>
+
+        <!-- Dropdown for workout selection -->
+        <select id="workout-dropdown" class="set-name-input">
+            <option value="Pushups">Pushups</option>
+            <option value="Squats">Squats</option>
+        </select>
+
+        <!-- Button to confirm the current set -->
+        <button id="confirm-workout" class="save-set-button">Confirm Workout</button>
+
+        <!-- Textbox to display current workout -->
+        <p>Current Workout:<br> <span id="current-workout">None</span></p>
+
+        <!-- Button to count reps -->
+        <button id="workout-btn" class="red-button">Tap to Count Reps</button>
+
+        <!-- Save set button -->
+        <button id="save-set" class="save-set-button">Save Set</button>
+
+        <!-- Reps display -->
+        <p>Reps: <span id="reps-count">0</span></p>
+
+        <!-- Sets display -->
+        <p>Sets: <span id="sets-count">0</span></p>
+
+        <!-- Display total sets -->
+        <p>Total Sets: <span id="total-sets">0</span></p>
+
+        <!-- Export JSON button -->
+        <button id="export-json" class="export-button">Export as JSON</button>
+
+        <!-- Table to display exercise sets and reps -->
+        <table id="workout-table" border="1">
+            <thead>
+                <tr>
+                    <th>Workout</th>
+                    <th>Set</th>
+                    <th>Reps</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be inserted dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
