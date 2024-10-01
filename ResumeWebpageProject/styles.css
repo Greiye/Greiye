@@ -4,19 +4,20 @@ body {
     overflow: hidden;
     font-family: Arial, sans-serif;
     font-size: 16px;
-}
-
-p {
+  }
+  
+  p {
     text-align: center;
-}
-.slides-wrapper {
+  }
+  
+  .slides-wrapper {
     display: flex;
     width: 700%;
     height: 100vh;
     transition: transform 0.5s ease;
-}
-
-.slide {
+  }
+  
+  .slide {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -25,16 +26,16 @@ p {
     align-items: center;
     background-color: #f0f0f0;
     position: relative;
-}
-
-.center-image {
+  }
+  
+  .center-image {
     width: 50%;
     max-width: 512px;
     height: auto;
-}
-
-/* Slide title styles */
-.slide-title {
+  }
+  
+  /* Slide title styles */
+  .slide-title {
     position: absolute;
     top: 20px;
     left: 50%;
@@ -43,19 +44,19 @@ p {
     font-weight: bold;
     color: #333;
     text-align: center;
-}
-
-/* Vertical Wrapper for Slide 2 */
-.vertical-wrapper {
+  }
+  
+  /* Vertical Wrapper for Slide 2 */
+  .vertical-wrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 200vh;
     transform: translateY(-50vh);
     transition: transform 0.5s ease;
-}
-
-.vertical-slide {
+  }
+  
+  .vertical-slide {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -63,10 +64,10 @@ p {
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-/* Navigation dots */
-.nav-dots {
+  }
+  
+  /* Navigation dots */
+  .nav-dots {
     position: fixed;
     bottom: 20px;
     left: 50%;
@@ -74,9 +75,9 @@ p {
     display: flex;
     justify-content: center;
     z-index: 10;
-}
-
-.nav-dot {
+  }
+  
+  .nav-dot {
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -84,14 +85,14 @@ p {
     margin: 0 8px;
     cursor: pointer;
     transition: transform 0.3s ease;
-}
-
-.nav-dot.active {
+  }
+  
+  .nav-dot.active {
     transform: scale(1.3);
-}
-
-/* Vertical navigation dots */
-.vertical-nav-dots {
+  }
+  
+  /* Vertical navigation dots */
+  .vertical-nav-dots {
     position: fixed;
     left: 20px;
     top: 50%;
@@ -99,9 +100,9 @@ p {
     display: flex;
     flex-direction: column;
     z-index: 10;
-}
-
-.vertical-nav-dot {
+  }
+  
+  .vertical-nav-dot {
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -109,14 +110,14 @@ p {
     margin: 8px 0;
     cursor: pointer;
     transition: transform 0.3s ease;
-}
-
-.vertical-nav-dot.active {
+  }
+  
+  .vertical-nav-dot.active {
     transform: scale(1.3);
-}
-
-/* Interactive button */
-.interact-btn {
+  }
+  
+  /* Interactive button */
+  .interact-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -133,62 +134,79 @@ p {
     align-items: center;
     transition: transform 0.3s ease;
     z-index: 10;
-}
-
-.interact-btn:hover {
+  }
+  
+  .interact-btn:hover {
     transform: scale(1.1);
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
     body {
-        font-size: 14px;
+      font-size: 14px;
     }
-
+  
     .slide-title {
-        font-size: 1.2rem;
+      font-size: 1.2rem;
     }
-
+  
     .center-image {
-        width: 70%;
-        max-width: none;
+      width: 70%;
+      max-width: none;
     }
-
-    .nav-dot, .vertical-nav-dot {
-        width: 10px;
-        height: 10px;
-        margin: 0 6px;
+  
+    .nav-dot,
+    .vertical-nav-dot {
+      width: 10px;
+      height: 10px;
+      margin: 0 6px;
     }
-
+  
     .interact-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 14px;
+      width: 50px;
+      height: 50px;
+      font-size: 14px;
     }
-}
-
-@media (max-width: 480px) {
+  
+    /* Mobile-specific styles */
+    .slides-wrapper {
+      width: 100%; /* Adjust width for mobile */
+    }
+  
+    .slide {
+      width: 100vw; /* Ensure each slide fills the mobile screen width */
+      height: 100vh; /* Ensure each slide fills the mobile screen height */
+    }
+  
+    /* Ensure navigation dots are visible on mobile */
+    .nav-dots {
+      display: flex; /* Ensure the container is visible */
+    }
+  }
+  
+  @media (max-width: 480px) {
     body {
-        font-size: 12px;
+      font-size: 12px;
     }
-
+  
     .slide-title {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-
+  
     .center-image {
-        width: 90%;
+      width: 90%;
     }
-
-    .nav-dot, .vertical-nav-dot {
-        width: 8px;
-        height: 8px;
-        margin: 0 4px;
+  
+    .nav-dot,
+    .vertical-nav-dot {
+      width: 8px;
+      height: 8px;
+      margin: 0 4px;
     }
-
+  
     .interact-btn {
-        width: 40px;
-        height: 40px;
-        font-size: 12px;
+      width: 40px;
+      height: 40px;
+      font-size: 12px;
     }
-}
+  }
