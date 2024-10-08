@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entity Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Entity Management System</h1>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Topic Tracker</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+    <div>
+        <button id="nextYearButton">Next Year</button>
+        <div id="turnTracker">Year: 0</div>
+    </div>
 
-    <body>
-        <h1>Topic Tracker</h1>
-        <button id="nextTurnButton">Next Turn</button>
-        <div id="topicContainer"></div>
+    <h2>Entities</h2>
+    <table id="entityContainer">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Name</th>
+                <th onclick="sortTable(1)">ID</th>
+                <th onclick="sortTable(2)">Points</th>
+                <th onclick="sortTable(3)">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic Entity Rows Will Be Rendered Here -->
+        </tbody>
+    </table>
 
-        <script src="script.js"></script>
-    </body>
+    <h2>Lorebook</h2>
+    <table id="lorebookContainer">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Reason for Deletion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic Lorebook Rows Will Be Rendered Here -->
+        </tbody>
+    </table>
 
+    <div>
+        <button class="toggle-button" onclick="toggleChangelog()">Toggle Changelog</button>
+        <div id="changelog">
+            <!-- Changelog Messages -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
