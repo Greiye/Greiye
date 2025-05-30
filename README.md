@@ -9,7 +9,7 @@
   <section>
     <img align="right" src="Me.gif" alt="Me." width="128" height="256">
   <h1>
-    <img align="left" src="NameTagProject.png" alt="NameTag" width="40%" height="40%">
+    <img align="left" src="NameTagIcon.png" alt="NameTag" width="40%" height="40%">
     Student in Software Engineering, Java Track @ <a href="https://www.wgu.edu/online-it-degrees/software-engineering-bachelors-program.html" title="WGU">WGU</a>.
   </h1>
   <p>
